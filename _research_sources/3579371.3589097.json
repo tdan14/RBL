@@ -1,0 +1,733 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        19
+      ]
+    ],
+    "date-time": "2026-10-19T21:55:20Z",
+    "timestamp": 1792446920817,
+    "version": "4.5.0"
+  },
+  "publisher-location": "New York, NY, USA",
+  "reference-count": 56,
+  "publisher": "ACM",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            6,
+            17
+          ]
+        ],
+        "date-time": "2023-06-17T00:00:00Z",
+        "timestamp": 1686960000000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "funder": [
+    {
+      "name": "U.S. Department of Energy, Office of Science, Office of Advanced Scientific Computing Research",
+      "award": [
+        "DE-SC0022138"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "DE-SC0022138"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "U.S. Department of Energy, Office of Science, Office of Advanced Scientific Computing Research",
+      "award": [
+        "DE-SC0022268"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "DE-SC0022268"
+          ]
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/100000001",
+      "name": "National Science Foundation",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "CCF-2107257"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "CCF-2107257"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/100000001",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/100000001",
+      "name": "National Science Foundation",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "CCF-2118708"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "CCF-2118708"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/100000001",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/100000001",
+      "name": "National Science Foundation",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "CCF-2107042"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "CCF-2107042"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/100000001",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/100000001",
+      "name": "National Science Foundation",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "CCF-1908488"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "CCF-1908488"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/100000001",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "dl.acm.org"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [],
+  "published-print": {
+    "date-parts": [
+      [
+        2023,
+        6,
+        17
+      ]
+    ]
+  },
+  "DOI": "10.1145/3579371.3589097",
+  "type": "proceedings-article",
+  "created": {
+    "date-parts": [
+      [
+        2023,
+        6,
+        16
+      ]
+    ],
+    "date-time": "2023-06-16T16:25:28Z",
+    "timestamp": 1686932728000
+  },
+  "page": "1-13",
+  "update-policy": "https://doi.org/10.1145/crossmark-policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 18,
+  "title": [
+    "EMISSARY: Enhanced Miss Awareness Replacement Policy for L2 Instruction Caching"
+  ],
+  "prefix": "10.1145",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0003-3972-0497",
+      "authenticated-orcid": false,
+      "given": "Nayana Prasad",
+      "family": "Nagendra",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Arm, Austin, Texas, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0009-0007-2739-0538",
+      "authenticated-orcid": false,
+      "given": "Bhargav Reddy",
+      "family": "Godala",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Princeton University, Princeton, New Jersey, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0009-0009-5955-7747",
+      "authenticated-orcid": false,
+      "given": "Ishita",
+      "family": "Chaturvedi",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Princeton University, Princeton, New Jersey, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-5086-6334",
+      "authenticated-orcid": false,
+      "given": "Atmn",
+      "family": "Patel",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Northwestern University, Evanston, Illinois, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0009-0007-8644-4858",
+      "authenticated-orcid": false,
+      "given": "Svilen",
+      "family": "Kanev",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Google, Sunnyvale, California, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0009-0003-5042-440X",
+      "authenticated-orcid": false,
+      "given": "Tipp",
+      "family": "Moseley",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Google, Sunnyvale, California, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0009-0002-4366-4723",
+      "authenticated-orcid": false,
+      "given": "Jared",
+      "family": "Stark",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Intel Corporation, Hillsboro, Oregon, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0009-0002-4363-5383",
+      "authenticated-orcid": false,
+      "given": "Gilles A.",
+      "family": "Pokam",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Intel Corporation, Santa Clara, California, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-9806-7016",
+      "authenticated-orcid": false,
+      "given": "Simone",
+      "family": "Campanoni",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Northwestern University, Evanston, Illinois, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-3327-1803",
+      "authenticated-orcid": false,
+      "given": "David I.",
+      "family": "August",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Princeton University, Princeton, New Jersey, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "320",
+  "published-online": {
+    "date-parts": [
+      [
+        2023,
+        6,
+        17
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "e_1_3_2_1_1_1",
+      "unstructured": "2015. SPECjbb 2015. https://www.spec.org/jbb2015/  2015. SPECjbb 2015. https://www.spec.org/jbb2015/"
+    },
+    {
+      "key": "e_1_3_2_1_2_1",
+      "unstructured": "2018. Speedometer 2.0. https://browserbench.org/Speedometer2.0/  2018. Speedometer 2.0. https://browserbench.org/Speedometer2.0/"
+    },
+    {
+      "key": "e_1_3_2_1_3_1",
+      "unstructured": "2020. MediaWiki. https://www.mediawiki.org/wiki/MediaWiki  2020. MediaWiki. https://www.mediawiki.org/wiki/MediaWiki"
+    },
+    {
+      "key": "e_1_3_2_1_4_1",
+      "unstructured": "2021. Twitter finagle. https://twitter.github.io/finagle/  2021. Twitter finagle. https://twitter.github.io/finagle/"
+    },
+    {
+      "key": "e_1_3_2_1_5_1",
+      "unstructured": "2023. Apache cassandra. http://cassandra.apache.org/  2023. Apache cassandra. http://cassandra.apache.org/"
+    },
+    {
+      "key": "e_1_3_2_1_6_1",
+      "unstructured": "2023. Apache kafka. https://kafka.apache.org/  2023. Apache kafka. https://kafka.apache.org/"
+    },
+    {
+      "key": "e_1_3_2_1_7_1",
+      "unstructured": "2023. Apache Solr. https://solr.apache.org/  2023. Apache Solr. https://solr.apache.org/"
+    },
+    {
+      "key": "e_1_3_2_1_8_1",
+      "unstructured": "2023. Apache tomcat. https://tomcat.apache.org/  2023. Apache tomcat. https://tomcat.apache.org/"
+    },
+    {
+      "key": "e_1_3_2_1_9_1",
+      "unstructured": "2023. TPC-C. http://www.tpc.org/tpcc/  2023. TPC-C. http://www.tpc.org/tpcc/"
+    },
+    {
+      "key": "e_1_3_2_1_10_1",
+      "unstructured": "2023. Verilator. https://www.veripool.org/wiki/verilator  2023. Verilator. https://www.veripool.org/wiki/verilator"
+    },
+    {
+      "key": "e_1_3_2_1_11_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ISCA.2018.00050"
+    },
+    {
+      "key": "e_1_3_2_1_12_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/WorldS450073.2020.9210347"
+    },
+    {
+      "key": "e_1_3_2_1_14_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3307650.3322234"
+    },
+    {
+      "key": "e_1_3_2_1_15_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1147/sj.52.0078"
+    },
+    {
+      "key": "e_1_3_2_1_16_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5555/1247360.1247401"
+    },
+    {
+      "key": "e_1_3_2_1_17_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2024716.2024718"
+    },
+    {
+      "key": "e_1_3_2_1_18_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1167473.1167488"
+    },
+    {
+      "key": "e_1_3_2_1_19_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.14778/2732240.2732246"
+    },
+    {
+      "key": "e_1_3_2_1_20_1",
+      "volume-title": "Improving cache management policies using dynamic reuse distances. In 2012 45Th annual IEEE/ACM international symposium on microarchitecture",
+      "author": "Duong Nam",
+      "unstructured": "Nam Duong , Dali Zhao , Taesu Kim , Rosario Cammarota , Mateo Valero , and Alexander V Veidenbaum . 2012. Improving cache management policies using dynamic reuse distances. In 2012 45Th annual IEEE/ACM international symposium on microarchitecture . IEEE , 389--400. Nam Duong, Dali Zhao, Taesu Kim, Rosario Cammarota, Mateo Valero, and Alexander V Veidenbaum. 2012. Improving cache management policies using dynamic reuse distances. In 2012 45Th annual IEEE/ACM international symposium on microarchitecture. IEEE, 389--400."
+    },
+    {
+      "key": "e_1_3_2_1_21_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2248487.2150982"
+    },
+    {
+      "key": "e_1_3_2_1_22_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ISCA45697.2020.00015"
+    },
+    {
+      "key": "e_1_3_2_1_23_1",
+      "volume-title": "Virtualization with KVM. Linux J",
+      "author": "Habib Irfan",
+      "year": "2008",
+      "unstructured": "Irfan Habib . 2008. Virtualization with KVM. Linux J . 2008 , 166, Article 8 (feb 2008). Irfan Habib. 2008. Virtualization with KVM. Linux J. 2008, 166, Article 8 (feb 2008)."
+    },
+    {
+      "key": "e_1_3_2_1_24_1",
+      "unstructured": "Glenn J Hinton and Robert M Riches  Jr. 1995. Instruction fetch unit with early instruction fetch mechanism. https://patents.google.com/patent/US5423014A/enUS Patent 5 423 014.  Glenn J Hinton and Robert M Riches Jr. 1995. Instruction fetch unit with early instruction fetch mechanism. https://patents.google.com/patent/US5423014A/enUS Patent 5 423 014."
+    },
+    {
+      "key": "e_1_3_2_1_25_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/LCA.2020.3035068"
+    },
+    {
+      "key": "e_1_3_2_1_26_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ISPASS51385.2021.00034"
+    },
+    {
+      "key": "e_1_3_2_1_27_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ISCA.2016.17"
+    },
+    {
+      "key": "e_1_3_2_1_28_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/HPCA.2015.7056045"
+    },
+    {
+      "key": "e_1_3_2_1_29_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1815961.1815971"
+    },
+    {
+      "key": "e_1_3_2_1_30_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/HPCA.2003.1183550"
+    },
+    {
+      "key": "e_1_3_2_1_31_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TC.2006.50"
+    },
+    {
+      "key": "e_1_3_2_1_32_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Harshad Kasture and Daniel Sanchez. 2016. TailBench: A benchmark suite and evaluation methodology for latency-critical applications. In Workload Characterization (IISWC).  Harshad Kasture and Daniel Sanchez. 2016. TailBench: A benchmark suite and evaluation methodology for latency-critical applications. In Workload Characterization (IISWC).",
+      "DOI": "10.1109/IISWC.2016.7581261"
+    },
+    {
+      "key": "e_1_3_2_1_33_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3466752.3480124"
+    },
+    {
+      "key": "e_1_3_2_1_34_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ISCA52012.2021.00063"
+    },
+    {
+      "key": "e_1_3_2_1_35_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TC.2013.61"
+    },
+    {
+      "key": "e_1_3_2_1_36_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/TC.2007.70816"
+    },
+    {
+      "key": "e_1_3_2_1_37_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3173162.3173178"
+    },
+    {
+      "key": "e_1_3_2_1_38_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/HPCA.2017.53"
+    },
+    {
+      "key": "e_1_3_2_1_39_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/545214.545223"
+    },
+    {
+      "key": "e_1_3_2_1_40_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1669112.1669172"
+    },
+    {
+      "key": "e_1_3_2_1_41_1",
+      "unstructured": "Evan Zheran Liu Milad Hashemi Kevin Swersky Parthasarathy Ranganathan and Junwhan Ahn. 2020. An Imitation Learning Approach for Cache Replacement. In arXiv:2006.16239. https://arxiv.org/abs/2006.16239  Evan Zheran Liu Milad Hashemi Kevin Swersky Parthasarathy Ranganathan and Junwhan Ahn. 2020. An Imitation Learning Approach for Cache Replacement. In arXiv:2006.16239. https://arxiv.org/abs/2006.16239"
+    },
+    {
+      "key": "e_1_3_2_1_42_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2893356"
+    },
+    {
+      "key": "e_1_3_2_1_43_1",
+      "volume-title": "International journal of parallel programming 26, 4",
+      "author": "Nanda Ashwini K",
+      "year": "1998",
+      "unstructured": "Ashwini K Nanda , James O Bondi , and Simonjit Dutta . 1998. The misprediction recovery cache . International journal of parallel programming 26, 4 ( 1998 ), 383--415. Ashwini K Nanda, James O Bondi, and Simonjit Dutta. 1998. The misprediction recovery cache. International journal of parallel programming 26, 4 (1998), 383--415."
+    },
+    {
+      "key": "e_1_3_2_1_44_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ISCA.2018.00019"
+    },
+    {
+      "key": "e_1_3_2_1_45_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5555/864886"
+    },
+    {
+      "key": "e_1_3_2_1_46_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5555/3314872.3314876"
+    },
+    {
+      "key": "e_1_3_2_1_47_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3314221.3314637"
+    },
+    {
+      "key": "e_1_3_2_1_48_1",
+      "unstructured": "Thomas Roberts Puzak. 1986. ANALYSIS OF CACHE REPLACEMENT-ALGORITHMS. (1986). https://scholarworks.umass.edu/dissertations/AAI8509594/  Thomas Roberts Puzak. 1986. ANALYSIS OF CACHE REPLACEMENT-ALGORITHMS. (1986). https://scholarworks.umass.edu/dissertations/AAI8509594/"
+    },
+    {
+      "key": "e_1_3_2_1_49_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1273440.1250709"
+    },
+    {
+      "key": "e_1_3_2_1_50_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ISCA.2006.5"
+    },
+    {
+      "key": "e_1_3_2_1_51_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/307338.300999"
+    },
+    {
+      "key": "e_1_3_2_1_52_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/MICRO.1999.809439"
+    },
+    {
+      "key": "e_1_3_2_1_53_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/12.919279"
+    },
+    {
+      "key": "e_1_3_2_1_54_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/LCA.2020.3002947"
+    },
+    {
+      "key": "e_1_3_2_1_55_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/379240.379258"
+    },
+    {
+      "key": "e_1_3_2_1_56_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/12.2202"
+    },
+    {
+      "key": "e_1_3_2_1_57_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ISPASS.2014.6844459"
+    }
+  ],
+  "event": {
+    "name": "ISCA '23: 50th Annual International Symposium on Computer Architecture",
+    "location": "Orlando FL USA",
+    "acronym": "ISCA '23",
+    "sponsor": [
+      "SIGARCH ACM Special Interest Group on Computer Architecture",
+      "IEEE"
+    ]
+  },
+  "container-title": [
+    "Proceedings of the 50th Annual International Symposium on Computer Architecture"
+  ],
+  "original-title": [],
+  "link": [
+    {
+      "URL": "https://dl.acm.org/doi/10.1145/3579371.3589097",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        6,
+        17
+      ]
+    ],
+    "date-time": "2025-06-17T12:46:40Z",
+    "timestamp": 1750164400000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://dl.acm.org/doi/10.1145/3579371.3589097"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2023,
+        6,
+        17
+      ]
+    ]
+  },
+  "references-count": 56,
+  "alternative-id": [
+    "10.1145/3579371.3589097",
+    "10.1145/3579371"
+  ],
+  "URL": "https://doi.org/10.1145/3579371.3589097",
+  "relation": {},
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2023,
+        6,
+        17
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "2023-06-17",
+      "order": 2,
+      "name": "published",
+      "label": "Published",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    }
+  ]
+}

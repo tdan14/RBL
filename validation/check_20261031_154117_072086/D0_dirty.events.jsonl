@@ -1,0 +1,4 @@
+{"access_number": 1, "trace_line": 2, "operation": "W", "address": 2048, "block": 64, "index": 64, "tag": 0, "way": 0, "hit": false, "measured": true, "victim_block": null, "writeback_base": null, "fill_base": 2048}
+{"access_number": 2, "trace_line": 3, "operation": "R", "address": 2048, "block": 64, "index": 64, "tag": 0, "way": 0, "hit": true, "measured": true, "victim_block": null, "writeback_base": null, "fill_base": null}
+{"access_number": 3, "trace_line": 4, "operation": "R", "address": 32, "block": 1, "index": 1, "tag": 0, "way": 0, "hit": false, "measured": true, "victim_block": null, "writeback_base": null, "fill_base": 32}
+{"access_number": 4, "trace_line": 5, "operation": "R", "address": 4192, "block": 131, "index": 3, "tag": 1, "way": 0, "hit": false, "measured": true, "victim_block": null, "writeback_base": null, "fill_base": 4192}

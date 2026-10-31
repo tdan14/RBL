@@ -1,0 +1,446 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        24
+      ]
+    ],
+    "date-time": "2026-10-24T00:31:40Z",
+    "timestamp": 1792801900666,
+    "version": "4.5.0"
+  },
+  "reference-count": 22,
+  "publisher": "Springer Science and Business Media LLC",
+  "issue": "2",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            3,
+            30
+          ]
+        ],
+        "date-time": "2023-03-30T00:00:00Z",
+        "timestamp": 1680134400000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            3,
+            30
+          ]
+        ],
+        "date-time": "2023-03-30T00:00:00Z",
+        "timestamp": 1680134400000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining"
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "link.springer.com"
+    ],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "J. Comput. Sci. Technol."
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2023,
+        4
+      ]
+    ]
+  },
+  "DOI": "10.1007/s11390-022-1573-3",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2023,
+        6,
+        21
+      ]
+    ],
+    "date-time": "2023-06-21T08:02:55Z",
+    "timestamp": 1687334575000
+  },
+  "page": "391-404",
+  "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 16,
+  "title": [
+    "A Prefetch-Adaptive Intelligent Cache Replacement Policy Based on Machine Learning"
+  ],
+  "prefix": "10.1007",
+  "volume": "38",
+  "author": [
+    {
+      "given": "Hui-Jing",
+      "family": "Yang",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Juan",
+      "family": "Fang",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Min",
+      "family": "Cai",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Zhi",
+      "family": "Cai",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "297",
+  "published-online": {
+    "date-parts": [
+      [
+        2023,
+        3,
+        30
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "1573_CR1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Zangeneh S, Pruett S, Lym S, Patt Y N. BranchNet: A convolutional neural network to predict hard-to-predict branches. In Proc. the 53rd Annual IEEE/ACM International Symposium on Microarchitecture, Oct. 2020, pp.118–130. DOI: 10.1109/MICRO50266.2020.00022.",
+      "DOI": "10.1109/MICRO50266.2020.00022"
+    },
+    {
+      "key": "1573_CR2",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Teran E, Wang Z, Jiménez D A. Perceptron learning for reuse prediction. In Proc. the 49th Annual IEEE/ACM International Symposium on Microarchitecture, Oct. 2016. DOI: 10.1109/MICRO.2016.7783705.",
+      "DOI": "10.1109/MICRO.2016.7783705"
+    },
+    {
+      "key": "1573_CR3",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Shi Z, Huang X R, Jain A, Lin C. Applying deep learning to the cache replacement problem. In Proc. the 52nd Annual IEEE/ACM International Symposium on Microarchitecture, Oct. 2019, pp.413–425. DOI: 10.1145/3352460.3358319.",
+      "DOI": "10.1145/3352460.3358319"
+    },
+    {
+      "issue": "3",
+      "key": "1573_CR4",
+      "doi-asserted-by": "publisher",
+      "first-page": "39",
+      "DOI": "10.1145/1394608.1382172",
+      "volume": "36",
+      "author": "E Ipek",
+      "year": "2008",
+      "unstructured": "Ipek E, Mutlu O, Martínez J F, Caruana R. Self-optimizing memory controllers: A reinforcement learning approach. ACM SIGARCH Computer Architecture News, 2008, 36(3): 39–50. DOI: https://doi.org/10.1145/1394608.1382172.",
+      "journal-title": "ACM SIGARCH Computer Architecture News"
+    },
+    {
+      "key": "1573_CR5",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Hallnor E G, Reinhardt S K. A fully associative softwaremanaged cache design. In Proc. the 27th Annual International Symposium on Computer Architecture, Jun. 2000, pp.107–116. DOI: 10.1145/339647.339660.",
+      "DOI": "10.1145/342001.339660"
+    },
+    {
+      "issue": "3",
+      "key": "1573_CR6",
+      "doi-asserted-by": "publisher",
+      "first-page": "60",
+      "DOI": "10.1145/1816038.1815971",
+      "volume": "38",
+      "author": "A Jaleel",
+      "year": "2010",
+      "unstructured": "Jaleel A, Theobald K B, Steely Jr S C, Emer J. High performance cache replacement using re-reference interval prediction (RRIP). ACM SIGARCH Computer Architecture News, 2010, 38(3): 60–71. DOI: https://doi.org/10.1145/1816038.1815971.",
+      "journal-title": "ACM SIGARCH Computer Architecture News"
+    },
+    {
+      "key": "1573_CR7",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Wu C J, Jaleel A, Hasenplaugh W, Martonosi M. SHiP: Signature-based hit predictor for high performance caching. In Proc. the 44th Annual IEEE/ACM International Symposium on Microarchitecture, Dec. 2011, pp.430–441. DOI: 10.1145/2155620.2155671.",
+      "DOI": "10.1145/2155620.2155671"
+    },
+    {
+      "key": "1573_CR8",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Jain A, Lin C. Back to the future: Leveraging Belady’s algorithm for improved cache replacement. In Proc. the 43rd Annual International Symposium on Computer Architecture, Jun. 2016, pp.78–89. DOI: 10.1109/ISCA.2016.17.",
+      "DOI": "10.1145/3007787.3001146"
+    },
+    {
+      "key": "1573_CR9",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Wu C J, Jaleel A, Martonosi M, Steely S C, Emer J. PACMan: Prefetch-aware cache management for high performance caching. In Proc. the 44th Annual IEEE/ACM International Symposium on Microarchitecture, Dec. 2011, pp.442–453. DOI: 10.1145/2155620.2155672.",
+      "DOI": "10.1145/2155620.2155672"
+    },
+    {
+      "key": "1573_CR10",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Heirman W, Bois K D, Vandriessche Y, Eyerman S, Hur I. Near-side prefetch throttling: Adaptive prefetching for high-performance many-core processors. In Proc. the 27th International Conference on Parallel Architectures and Compilation Techniques, Nov. 2018, Article No. 28. DOI: https://doi.org/10.1145/3243176.3243181.",
+      "DOI": "10.1145/3243176.3243181"
+    },
+    {
+      "key": "1573_CR11",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Ishii Y, Inaba M, Hiraki K. Unified memory optimizing architecture: Memory subsystem control with a unified predictor. In Proc. the 26th ACM International Conference on Supercomputing, Jun. 2012, pp.267–278. DOI: 10.1145/2304576.2304614.",
+      "DOI": "10.1145/2304576.2304614"
+    },
+    {
+      "key": "1573_CR12",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Kim J, Pugsley S H, Gratz P V, Reddy A L N, Wilkerson C, Chishti Z. Path confidence based lookahead prefetching. In Proc. the 49th Annual IEEE/ACM International Symposium on Microarchitecture, Oct. 2016. DOI: 10.1109/MICRO.2016.7783763.",
+      "DOI": "10.1109/MICRO.2016.7783763"
+    },
+    {
+      "issue": "2",
+      "key": "1573_CR13",
+      "doi-asserted-by": "publisher",
+      "first-page": "297",
+      "DOI": "10.1145/170036.170081",
+      "volume": "22",
+      "author": "EJ O'Neil",
+      "year": "1993",
+      "unstructured": "O'Neil E J, O'Neil P E, Weikum G. The LRU-K page replacement algorithm for database disk buffering. ACM SIGMOD Record, 1993, 22(2): 297–306. DOI: https://doi.org/10.1145/170036.170081.",
+      "journal-title": "ACM SIGMOD Record"
+    },
+    {
+      "key": "1573_CR14",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Srinath S, Mutlu O, Kim H, Patt Y N. Feedback directed prefetching: Improving the performance and bandwidth-efficiency of hardware prefetchers. In Proc. the 13th International Symposium on High Performance Computer Architecture, Feb. 2007, pp.63–74. DOI: 10.1109/HPCA.2007.346185.",
+      "DOI": "10.1109/HPCA.2007.346185"
+    },
+    {
+      "key": "1573_CR15",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Jain A, Lin C. Rethinking Belady’s algorithm to accommodate prefetching. In Proc. the 45th Annual International Symposium on Computer Architecture, Jun. 2018, pp.110–123. DOI: 10.1109/ISCA.2018.00020.",
+      "DOI": "10.1109/ISCA.2018.00020"
+    },
+    {
+      "issue": "4",
+      "key": "1573_CR16",
+      "doi-asserted-by": "publisher",
+      "first-page": "737",
+      "DOI": "10.1145/3093336.3037701",
+      "volume": "52",
+      "author": "J Kim",
+      "year": "2017",
+      "unstructured": "Kim J, Teran E, Gratz P V, Jiménez D A, Pugsley S H, Wilkerson C. Kill the program counter: Reconstructing program behavior in the processor cache hierarchy. ACM SIGPLAN Notices, 2017, 52(4): 737–749. DOI: https://doi.org/10.1145/3093336.3037701.",
+      "journal-title": "ACM SIGPLAN Notices"
+    },
+    {
+      "issue": "4",
+      "key": "1573_CR17",
+      "doi-asserted-by": "publisher",
+      "first-page": "1",
+      "DOI": "10.1145/1186736.1186737",
+      "volume": "34",
+      "author": "JL Henning",
+      "year": "2006",
+      "unstructured": "Henning J L. SPEC CPU2006 benchmark descriptions. ACM SIGARCH Computer Architecture News, 2006, 34(4): 1–17. DOI: https://doi.org/10.1145/1186736.1186737.",
+      "journal-title": "ACM SIGARCH Computer Architecture News"
+    },
+    {
+      "key": "1573_CR18",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Bucek J, Lange K D, von Kistowski J. SPEC CPU2017: Next-generation compute benchmark. In Proc. the 2018 ACM/SPEC International Conference on Performance Engineering, Apr. 2018, pp.41–42. DOI: 10.1145/3185768.3185771.",
+      "DOI": "10.1145/3185768.3185771"
+    },
+    {
+      "issue": "1",
+      "key": "1573_CR19",
+      "doi-asserted-by": "publisher",
+      "first-page": "318",
+      "DOI": "10.1145/885651.781076",
+      "volume": "31",
+      "author": "E Perelman",
+      "year": "2003",
+      "unstructured": "Perelman E, Hamerly G, Van Biesbrouck M, Sherwood T, Calder B. Using SimPoint for accurate and efficient simulation. ACM SIGMETRICS Performance Evaluation Review, 2003, 31(1): 318–319. DOI: https://doi.org/10.1145/885651.781076.",
+      "journal-title": "ACM SIGMETRICS Performance Evaluation Review"
+    },
+    {
+      "key": "1573_CR20",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Bhatia E, Chacon G, Pugsley S, Teran E, Gratz P V, Jiménez D A. Perceptron-based prefetch filtering. In Proc. the 46th International Symposium on Computer Architecture, Jun. 2019. DOI: 10.1145/3307650.3322207.",
+      "DOI": "10.1145/3307650.3322207"
+    },
+    {
+      "key": "1573_CR21",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Shevgoor M, Koladiya S, Balasubramonian R, Wilkerson C, Pugsley S H, Chishti Z. Efficiently prefetching complex address patterns. In Proc. the 48th International Symposium on Microarchitecture, Dec. 2015, pp.141–152. DOI: 10.1145/2830772.2830793.",
+      "DOI": "10.1145/2830772.2830793"
+    },
+    {
+      "key": "1573_CR22",
+      "doi-asserted-by": "publisher",
+      "unstructured": "Seshadri V, Yedkar S, Xin H Y, Mutlu O, Gibbons P B, Kozuch M A, Mowry T C. Mitigating prefetcher-caused pollution using informed caching policies for prefetched blocks. ACM Transactions on Architecture and Code Optimization, 2015, 11(4): Article No. 51. DOI: https://doi.org/10.1145/2677956.",
+      "DOI": "10.1145/2677956"
+    }
+  ],
+  "container-title": [
+    "Journal of Computer Science and Technology"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://link.springer.com/content/pdf/10.1007/s11390-022-1573-3.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://link.springer.com/article/10.1007/s11390-022-1573-3/fulltext.html",
+      "content-type": "text/html",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://link.springer.com/content/pdf/10.1007/s11390-022-1573-3.pdf",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2023,
+        6,
+        21
+      ]
+    ],
+    "date-time": "2023-06-21T08:27:54Z",
+    "timestamp": 1687336074000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://link.springer.com/10.1007/s11390-022-1573-3"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2023,
+        3,
+        30
+      ]
+    ]
+  },
+  "references-count": 22,
+  "journal-issue": {
+    "issue": "2",
+    "published-print": {
+      "date-parts": [
+        [
+          2023,
+          4
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "1573"
+  ],
+  "URL": "https://doi.org/10.1007/s11390-022-1573-3",
+  "relation": {},
+  "ISSN": [
+    "1000-9000",
+    "1860-4749"
+  ],
+  "issn-type": [
+    {
+      "value": "1000-9000",
+      "type": "print"
+    },
+    {
+      "value": "1860-4749",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2023,
+        3,
+        30
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "10 May 2021",
+      "order": 1,
+      "name": "received",
+      "label": "Received",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "17 August 2022",
+      "order": 2,
+      "name": "accepted",
+      "label": "Accepted",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    },
+    {
+      "value": "30 March 2023",
+      "order": 3,
+      "name": "first_online",
+      "label": "First Online",
+      "group": {
+        "name": "ArticleHistory",
+        "label": "Article History"
+      }
+    }
+  ]
+}

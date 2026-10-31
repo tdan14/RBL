@@ -1,0 +1,82 @@
+{
+  "algorithm": "SHA-256",
+  "generated_at": "2026-10-31T15:35:49+07:00",
+  "scope": "All task artefacts; manifest itself excluded to avoid circular hashing",
+  "files": [
+    {
+      "path": "AI_DESIGN_FREEZE.md",
+      "sha256": "7b5a803d23ee2a6c7ca742cc21144aad5022d504e5f8a4a3a5a6df33a1bfc491",
+      "bytes": 9900
+    },
+    {
+      "path": "AI_SESSION_LOG.md",
+      "sha256": "17191cae48f1112e778f6ad129d39c364e6f73f2f46a2ae27e5dd99885d8f387",
+      "bytes": 6197
+    },
+    {
+      "path": "evidence/SESSION_TIMES.json",
+      "sha256": "e512dc2160f509e86578d76ac3c0a08328b440ae601279219247a581097318e3",
+      "bytes": 820
+    },
+    {
+      "path": "inputs/experiment_protocol.md",
+      "sha256": "edc53f5fca930a031076279a1ea4a8280fae1abc768d630f60544a21cadfd0a6",
+      "bytes": 24517
+    },
+    {
+      "path": "inputs/Tong_hop_9_bai_bao_tham_khao_Q10.md",
+      "sha256": "d812b2fa879baf05f5fe8c167785bc1fd3c59be05cc4280454776da504672f6d",
+      "bytes": 79457
+    },
+    {
+      "path": "prompts/P001.md",
+      "sha256": "1733bfb4320cd901cdd537e04a305a38be229bbdc0649bc758fcd18d40dceff2",
+      "bytes": 2344
+    },
+    {
+      "path": "prompts/P002.md",
+      "sha256": "7678d037d95aadf760522693908756b83abfbef3ed7681058186136168ecd660",
+      "bytes": 1530
+    },
+    {
+      "path": "prompts/P003.md",
+      "sha256": "18f3f6e9bccd3c619538e2e4f9c5c3838c8faa02d11d9b64a0bc1f2c5f264a7d",
+      "bytes": 1575
+    },
+    {
+      "path": "README.md",
+      "sha256": "1aa888ffd167db372e1edec16789cc1341b948efd797a8d57f3c00ba03ebb80a",
+      "bytes": 3367
+    },
+    {
+      "path": "responses/R001.md",
+      "sha256": "f39bdc27a17f98fa51e605e2c5af13121a59b903847171c5e0d46c1324bc140e",
+      "bytes": 14921
+    },
+    {
+      "path": "responses/R002.md",
+      "sha256": "d18514bf12223778ba4a08aa3665d30c206865847eeeaa865f2ba0affef3b312",
+      "bytes": 15244
+    },
+    {
+      "path": "responses/R003.md",
+      "sha256": "275a55fff3d2d22670129fc3603b840dce3d5e38f9a91d0e595b0835bbe5e21e",
+      "bytes": 17367
+    },
+    {
+      "path": "verification/AI_SELF_CHECK.json",
+      "sha256": "171ea98ba15c3493d55d799f81ba38982ca49734dfcfb95ec1954dd1bae96cf3",
+      "bytes": 1718
+    },
+    {
+      "path": "verification/check_q10_spec.mjs",
+      "sha256": "d8993a3bc7c7fc35cd2d41ac7729191329d3b0cb0accc1b9927da5f8353a83b9",
+      "bytes": 7416
+    },
+    {
+      "path": "verification/README.md",
+      "sha256": "372c212f29d10e4ca6c7ec0aa84d7a43f9c74f8300d1c91e7fbaefaf0bff7f3c",
+      "bytes": 2213
+    }
+  ]
+}

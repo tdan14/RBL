@@ -1,0 +1,78 @@
+{
+  "file": "Tong_hop_9_bai_bao_tham_khao_Q10.md",
+  "checks": [
+    {
+      "id": "LIT-001",
+      "title": "Randomizing Set-Associative Caches Against Conflict-Based Cache Side-Channel Attacks",
+      "analysis_and_conclusion_words": 909,
+      "owner": "Trương Tô Dân — QE210127.",
+      "has_conclusion": true,
+      "has_doi": true
+    },
+    {
+      "id": "LIT-002",
+      "title": "The Maya Cache: A Storage-efficient and Secure Fully-associative Last-level Cache",
+      "analysis_and_conclusion_words": 897,
+      "owner": "Trương Tô Dân — QE210127.",
+      "has_conclusion": true,
+      "has_doi": true
+    },
+    {
+      "id": "LIT-003",
+      "title": "Scatter and Split Securely: Defeating Cache Contention and Occupancy Attacks",
+      "analysis_and_conclusion_words": 904,
+      "owner": "Trương Tô Dân — QE210127.",
+      "has_conclusion": true,
+      "has_doi": true
+    },
+    {
+      "id": "LIT-004",
+      "title": "Tartan: Microarchitecting a Robotic Processor",
+      "analysis_and_conclusion_words": 934,
+      "owner": "Trần Châu Hoàng Nam — QE210145.",
+      "has_conclusion": true,
+      "has_doi": true
+    },
+    {
+      "id": "LIT-005",
+      "title": "From Optimal to Practical: Efficient Micro-op Cache Replacement Policies for Data Center Applications",
+      "analysis_and_conclusion_words": 917,
+      "owner": "Trần Châu Hoàng Nam — QE210145.",
+      "has_conclusion": true,
+      "has_doi": true
+    },
+    {
+      "id": "LIT-006",
+      "title": "EMISSARY: Enhanced Miss Awareness Replacement Policy for L2 Instruction Caching",
+      "analysis_and_conclusion_words": 913,
+      "owner": "Trần Châu Hoàng Nam — QE210145.",
+      "has_conclusion": true,
+      "has_doi": true
+    },
+    {
+      "id": "LIT-007",
+      "title": "CHROME: Concurrency-Aware Holistic Cache Management Framework with Online Reinforcement Learning",
+      "analysis_and_conclusion_words": 906,
+      "owner": "Dương Quốc Thịnh — QE210121.",
+      "has_conclusion": true,
+      "has_doi": true
+    },
+    {
+      "id": "LIT-008",
+      "title": "A Prefetch-Adaptive Intelligent Cache Replacement Policy Based on Machine Learning",
+      "analysis_and_conclusion_words": 910,
+      "owner": "Dương Quốc Thịnh — QE210121.",
+      "has_conclusion": true,
+      "has_doi": true
+    },
+    {
+      "id": "LIT-009",
+      "title": "Sketching the Path to Efficiency: Lightweight Learned Cache Replacement",
+      "analysis_and_conclusion_words": 922,
+      "owner": "Dương Quốc Thịnh — QE210121.",
+      "has_conclusion": true,
+      "has_doi": true
+    }
+  ],
+  "all_passed": true
+}

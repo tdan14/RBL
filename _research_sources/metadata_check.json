@@ -1,0 +1,126 @@
+[
+  {
+    "doi": "10.1109/TC.2024.3349659",
+    "title": [
+      "Randomizing Set-Associative Caches Against Conflict-Based Cache Side-Channel Attacks"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          4
+        ]
+      ]
+    },
+    "type": "journal-article",
+    "page": "1019-1033",
+    "update-to": [],
+    "relation": {}
+  },
+  {
+    "doi": "10.1109/ISCA59077.2024.00013",
+    "title": [
+      "The Maya Cache: A Storage-efficient and Secure Fully-associative Last-level Cache"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          6,
+          29
+        ]
+      ]
+    },
+    "type": "proceedings-article",
+    "page": "32-44",
+    "update-to": [],
+    "relation": {}
+  },
+  {
+    "doi": "10.1109/SP46215.2023.10179440",
+    "title": [
+      "Scatter and Split Securely: Defeating Cache Contention and Occupancy Attacks"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          5
+        ]
+      ]
+    },
+    "type": "proceedings-article",
+    "page": "2273-2287",
+    "update-to": [],
+    "relation": {}
+  },
+  {
+    "doi": "10.1109/ISCA59077.2024.00047",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "doi": "10.1109/HPCA61900.2025.00060",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "doi": "10.1145/3579371.3589097",
+    "title": [
+      "EMISSARY: Enhanced Miss Awareness Replacement Policy for L2 Instruction Caching"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          17
+        ]
+      ]
+    },
+    "type": "proceedings-article",
+    "page": "1-13",
+    "update-to": [],
+    "relation": {}
+  },
+  {
+    "doi": "10.1109/HPCA57654.2024.00090",
+    "title": [
+      "CHROME: Concurrency-Aware Holistic Cache Management Framework with Online Reinforcement Learning"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          2
+        ]
+      ]
+    },
+    "type": "proceedings-article",
+    "page": "1154-1167",
+    "update-to": [],
+    "relation": {}
+  },
+  {
+    "doi": "10.1007/s11390-022-1573-3",
+    "title": [
+      "A Prefetch-Adaptive Intelligent Cache Replacement Policy Based on Machine Learning"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          3,
+          30
+        ]
+      ]
+    },
+    "type": "journal-article",
+    "page": "391-404",
+    "update-to": [],
+    "relation": {}
+  },
+  {
+    "doi": "10.4230/LIPIcs.OPODIS.2023.34",
+    "error": "HTTP Error 404: Not Found"
+  }
+]

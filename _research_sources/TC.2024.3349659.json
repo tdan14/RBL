@@ -1,0 +1,576 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        7,
+        2
+      ]
+    ],
+    "date-time": "2026-07-02T15:53:54Z",
+    "timestamp": 1783007634104,
+    "version": "3.54.5"
+  },
+  "reference-count": 45,
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "issue": "4",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            1
+          ]
+        ],
+        "date-time": "2024-04-01T00:00:00Z",
+        "timestamp": 1711929600000
+      },
+      "content-version": "vor",
+      "delay-in-days": 0,
+      "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            1
+          ]
+        ],
+        "date-time": "2024-04-01T00:00:00Z",
+        "timestamp": 1711929600000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-029"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            1
+          ]
+        ],
+        "date-time": "2024-04-01T00:00:00Z",
+        "timestamp": 1711929600000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-037"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/501100001809",
+      "name": "National Natural Science Foundation of China",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "61802402"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "61802402"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001809",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100001809",
+      "name": "National Natural Science Foundation of China",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "62172406"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "62172406"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100001809",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "name": "CAS Pioneer Hundred Talents Program"
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [
+    "IEEE Trans. Comput."
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2024,
+        4
+      ]
+    ]
+  },
+  "DOI": "10.1109/tc.2024.3349659",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2024,
+        1,
+        8
+      ]
+    ],
+    "date-time": "2024-01-08T19:34:52Z",
+    "timestamp": 1704742492000
+  },
+  "page": "1019-1033",
+  "source": "Crossref",
+  "is-referenced-by-count": 10,
+  "title": [
+    "Randomizing Set-Associative Caches Against Conflict-Based Cache Side-Channel Attacks"
+  ],
+  "prefix": "10.1109",
+  "volume": "73",
+  "author": [
+    {
+      "ORCID": "https://orcid.org/0000-0001-5649-1580",
+      "authenticated-orcid": false,
+      "given": "Wei",
+      "family": "Song",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Key Laboratory of Cyberspace Security Defense, Institute of Information Engineering, CAS, Beijing, China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0009-0001-7430-3069",
+      "authenticated-orcid": false,
+      "given": "Zihan",
+      "family": "Xue",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Key Laboratory of Cyberspace Security Defense, Institute of Information Engineering, CAS, Beijing, China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0009-0007-9746-415X",
+      "authenticated-orcid": false,
+      "given": "Jinchi",
+      "family": "Han",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Key Laboratory of Cyberspace Security Defense, Institute of Information Engineering, CAS, Beijing, China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-0566-3562",
+      "authenticated-orcid": false,
+      "given": "Zhenzhen",
+      "family": "Li",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Key Laboratory of Cyberspace Security Defense, Institute of Information Engineering, CAS, Beijing, China"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0002-5091-8464",
+      "authenticated-orcid": false,
+      "given": "Peng",
+      "family": "Liu",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Pennsylvania State University, University Park, PA, USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "263",
+  "reference": [
+    {
+      "key": "ref1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3079856.3080222"
+    },
+    {
+      "key": "ref2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/SP.2015.43"
+    },
+    {
+      "key": "ref3",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/SP.2015.42"
+    },
+    {
+      "key": "ref4",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-3-319-93387-0_5"
+    },
+    {
+      "key": "ref5",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-3-319-40667-1_15"
+    },
+    {
+      "key": "ref6",
+      "first-page": "299",
+      "article-title": "High-resolution side channels for untrusted operating systems",
+      "volume-title": "Proc. USENIX Annu. Tech. Conf.",
+      "author": "Hähnel",
+      "year": "2017"
+    },
+    {
+      "key": "ref7",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/MICRO.2018.00068"
+    },
+    {
+      "key": "ref8",
+      "first-page": "360",
+      "article-title": "New attacks and defense for encrypted-address cache",
+      "volume-title": "Proc. Int. Symp. Comput. Archit.",
+      "author": "Qureshi",
+      "year": "2019"
+    },
+    {
+      "key": "ref9",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5555/3361338.3361385"
+    },
+    {
+      "key": "ref10",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/SP40001.2021.00050"
+    },
+    {
+      "key": "ref11",
+      "first-page": "1379",
+      "article-title": "MIRAGE: Mitigating conflict-based cache attacks with a practical fully-associative design",
+      "volume-title": "Proc. USENIX Secur. Symp.",
+      "author": "Saileshwar",
+      "year": "2021"
+    },
+    {
+      "key": "ref12",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/SP.2019.00042"
+    },
+    {
+      "key": "ref13",
+      "first-page": "427",
+      "article-title": "Dynamically finding minimal eviction sets can be quicker than you think for side-channel attacks against the LLC",
+      "volume-title": "Proc. Int. Symp. Res. Attacks, Intrusions Defenses",
+      "author": "Song",
+      "year": "2019"
+    },
+    {
+      "key": "ref14",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/MICRO50266.2020.00092"
+    },
+    {
+      "key": "ref15",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/SEED55351.2022.00009"
+    },
+    {
+      "key": "ref16",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/SP46215.2023.10179440"
+    },
+    {
+      "key": "ref17",
+      "article-title": "The Rocket chip generator",
+      "author": "Asanović",
+      "year": "2016"
+    },
+    {
+      "key": "ref18",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/MM.2020.2996616"
+    },
+    {
+      "key": "ref19",
+      "article-title": "Advanced profiling for probabilistic Prime+Probe attacks and covert channels in ScatterCache",
+      "author": "Purnal",
+      "year": "2019"
+    },
+    {
+      "key": "ref20",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/SP40001.2021.00011"
+    },
+    {
+      "key": "ref21",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3460120.3484816"
+    },
+    {
+      "key": "ref22",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3545948.3545987"
+    },
+    {
+      "key": "ref23",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ISCA.1993.698558"
+    },
+    {
+      "key": "ref24",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1816038.1815971"
+    },
+    {
+      "key": "ref25",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/LCA.2020.2964212"
+    },
+    {
+      "key": "ref26",
+      "first-page": "22",
+      "article-title": "2.5: Transformation of random variables",
+      "volume-title": "Introduction to Statistical Machine Learning",
+      "author": "Sugiyama",
+      "year": "2016"
+    },
+    {
+      "key": "ref27",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1080/00224065.1986.11979014"
+    },
+    {
+      "key": "ref28",
+      "article-title": "block-inclusivecache-sifive",
+      "volume-title": "Apr",
+      "year": "2021"
+    },
+    {
+      "key": "ref29",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/978-3-319-26362-5_3"
+    },
+    {
+      "key": "ref30",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ANCS.2011.32"
+    },
+    {
+      "key": "ref31",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/PGEC.1965.263963"
+    },
+    {
+      "key": "ref32",
+      "article-title": "45nm open cell library",
+      "year": "2008"
+    },
+    {
+      "key": "ref33",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/MICRO.2007.33"
+    },
+    {
+      "key": "ref34",
+      "article-title": "SiFive FU740-C000 manual v1p6",
+      "year": "2022"
+    },
+    {
+      "issue": "11",
+      "key": "ref35",
+      "first-page": "3",
+      "article-title": "Hardware performance counter based on RISC-V",
+      "volume": "30",
+      "author": "Xue",
+      "year": "2021",
+      "journal-title": "Comput. Syst. Appl."
+    },
+    {
+      "key": "ref36",
+      "article-title": "Spike RISC-V ISA simulator",
+      "author": "Waterman",
+      "year": "2023"
+    },
+    {
+      "key": "ref37",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1241601.1241622"
+    },
+    {
+      "key": "ref38",
+      "article-title": "The Berkeley out-of-order machine (BOOM): An industry-competitive, synthesizable, parameterized RISC-V processor",
+      "author": "Celio",
+      "year": "2015"
+    },
+    {
+      "key": "ref39",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/MICRO56248.2022.00080"
+    },
+    {
+      "key": "ref40",
+      "first-page": "1967",
+      "article-title": "RELOAD+REFRESH: Abusing cache replacement policies to perform stealthy cache attacks",
+      "volume-title": "Proc. USENIX Secur. Symp.",
+      "author": "Briongos",
+      "year": "2020"
+    },
+    {
+      "key": "ref41",
+      "first-page": "639",
+      "article-title": "Robust website fingerprinting through the cache occupancy channel",
+      "volume-title": "Proc. USENIX Secur. Symp.",
+      "author": "Shusterman",
+      "year": "2019"
+    },
+    {
+      "key": "ref42",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/SEED55351.2022.00011"
+    },
+    {
+      "key": "ref43",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2508859.2516741"
+    },
+    {
+      "key": "ref44",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/MICRO.2014.42"
+    },
+    {
+      "key": "ref45",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3352460.3358273"
+    }
+  ],
+  "container-title": [
+    "IEEE Transactions on Computers"
+  ],
+  "original-title": [],
+  "link": [
+    {
+      "URL": "http://xplorestaging.ieee.org/ielx7/12/10470450/10384476.pdf?arnumber=10384476",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2024,
+        3,
+        26
+      ]
+    ],
+    "date-time": "2024-03-26T11:22:44Z",
+    "timestamp": 1711452164000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://ieeexplore.ieee.org/document/10384476/"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2024,
+        4
+      ]
+    ]
+  },
+  "references-count": 45,
+  "journal-issue": {
+    "issue": "4"
+  },
+  "URL": "https://doi.org/10.1109/tc.2024.3349659",
+  "relation": {},
+  "ISSN": [
+    "0018-9340",
+    "1557-9956",
+    "2326-3814"
+  ],
+  "issn-type": [
+    {
+      "value": "0018-9340",
+      "type": "print"
+    },
+    {
+      "value": "1557-9956",
+      "type": "electronic"
+    },
+    {
+      "value": "2326-3814",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2024,
+        4
+      ]
+    ]
+  }
+}

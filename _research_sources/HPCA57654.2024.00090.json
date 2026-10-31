@@ -1,0 +1,583 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        28
+      ]
+    ],
+    "date-time": "2026-10-28T16:54:55Z",
+    "timestamp": 1793206495353,
+    "version": "4.5.0"
+  },
+  "reference-count": 62,
+  "publisher": "IEEE",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            2
+          ]
+        ],
+        "date-time": "2024-03-02T00:00:00Z",
+        "timestamp": 1709337600000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-029"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            2
+          ]
+        ],
+        "date-time": "2024-03-02T00:00:00Z",
+        "timestamp": 1709337600000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-037"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/100000001",
+      "name": "National Science Foundation",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "CCF-2008000,CNS-1956229,IIS-2331908,CNS-2310422,CNS-2152497"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "CCF-2008000,CNS-1956229,IIS-2331908,CNS-2310422,CNS-2152497"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/100000001",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "short-container-title": [],
+  "published-print": {
+    "date-parts": [
+      [
+        2024,
+        3,
+        2
+      ]
+    ]
+  },
+  "DOI": "10.1109/hpca57654.2024.00090",
+  "type": "proceedings-article",
+  "created": {
+    "date-parts": [
+      [
+        2024,
+        4,
+        2
+      ]
+    ],
+    "date-time": "2024-04-02T14:36:37Z",
+    "timestamp": 1712068597000
+  },
+  "page": "1154-1167",
+  "source": "Crossref",
+  "is-referenced-by-count": 28,
+  "title": [
+    "CHROME: Concurrency-Aware Holistic Cache Management Framework with Online Reinforcement Learning"
+  ],
+  "prefix": "10.1109",
+  "author": [
+    {
+      "given": "Xiaoyang",
+      "family": "Lu",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Illinois Institute of Technology"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Hamed",
+      "family": "Najafi",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Florida International University"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Jason",
+      "family": "Liu",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Florida International University"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Xian-He",
+      "family": "Sun",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Illinois Institute of Technology"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "263",
+  "reference": [
+    {
+      "key": "ref1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/DATE.2003.1253701"
+    },
+    {
+      "key": "ref2",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3085572"
+    },
+    {
+      "key": "ref3",
+      "article-title": "The gap benchmark suite",
+      "author": "Beamer",
+      "year": "2015",
+      "journal-title": "arXiv preprint"
+    },
+    {
+      "key": "ref4",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/HPCA.2017.43"
+    },
+    {
+      "key": "ref5",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1147/sj.52.0078"
+    },
+    {
+      "key": "ref6",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3466752.3480114"
+    },
+    {
+      "key": "ref7",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/12.381947"
+    },
+    {
+      "key": "ref8",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ISCA.2004.1310765"
+    },
+    {
+      "key": "ref9",
+      "volume-title": "2nd cache replacement championship",
+      "year": "2017"
+    },
+    {
+      "key": "ref10",
+      "volume-title": "3rd data prefetching championship",
+      "year": "2019"
+    },
+    {
+      "key": "ref11",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/MICRO.2012.43"
+    },
+    {
+      "key": "ref12",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/MM.2008.44"
+    },
+    {
+      "key": "ref13",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/PACT.2017.32"
+    },
+    {
+      "key": "ref14",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/115953.115959"
+    },
+    {
+      "key": "ref15",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/144965.145006"
+    },
+    {
+      "key": "ref16",
+      "volume-title": "The Championship Simulator: Architectural Simulation for Education and Competition",
+      "author": "Gober",
+      "year": "2022"
+    },
+    {
+      "issue": "11",
+      "key": "ref17",
+      "first-page": "0",
+      "article-title": "Intel 64 and ia-32 architectures software developers manual,” Volume 3B",
+      "volume": "2",
+      "author": "Guide",
+      "year": "2011",
+      "journal-title": "System programming Guide"
+    },
+    {
+      "key": "ref18",
+      "volume-title": "Disclosure of h/w prefetcher control on some intel processors"
+    },
+    {
+      "key": "ref19",
+      "volume-title": "1st instruction prefetching championship",
+      "year": "2020"
+    },
+    {
+      "key": "ref20",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1394608.1382172"
+    },
+    {
+      "key": "ref21",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ISCA.2016.17"
+    },
+    {
+      "key": "ref22",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ISCA.2018.00020"
+    },
+    {
+      "key": "ref23",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/1816038.1815971"
+    },
+    {
+      "key": "ref24",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/HPCA.2001.903263"
+    },
+    {
+      "key": "ref25",
+      "first-page": "436",
+      "article-title": "Multiperspective reuse prediction",
+      "volume-title": "201750th Annual IEEE/ACM International Symposium on Microarchitecture (MICRO)",
+      "author": "Jimenez"
+    },
+    {
+      "key": "ref26",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/MICRO.2010.24"
+    },
+    {
+      "key": "ref27",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/b978-1-55860-247-2.50037-1"
+    },
+    {
+      "key": "ref28",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/285930.285939"
+    },
+    {
+      "key": "ref29",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/2487788.2488173"
+    },
+    {
+      "key": "ref30",
+      "first-page": "315",
+      "article-title": "Optimal bypass monitor for high performance last-level caches",
+      "volume-title": "Proceedings of the 21st international conference on Parallel architectures and compilation techniques",
+      "author": "Li"
+    },
+    {
+      "key": "ref31",
+      "first-page": "6237",
+      "article-title": "An imitation learning approach for cache replacement",
+      "volume-title": "International Conference on Machine Learning. PMLR",
+      "author": "Liu"
+    },
+    {
+      "key": "ref32",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s11390-021-0771-8"
+    },
+    {
+      "key": "ref33",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICCD50377.2020.00048"
+    },
+    {
+      "key": "ref34",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ICCD53106.2021.00068"
+    },
+    {
+      "key": "ref35",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/HPCA56546.2023.10071125"
+    },
+    {
+      "key": "ref36",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.3390/jlpea6020005"
+    },
+    {
+      "key": "ref37",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/WSC57314.2022.10015298"
+    },
+    {
+      "key": "ref38",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ISCA45697.2020.00021"
+    },
+    {
+      "key": "ref39",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/MM.2022.3164338"
+    },
+    {
+      "key": "ref40",
+      "article-title": "On-line Q-learning using connectionist systems",
+      "volume": "37",
+      "author": "Rummery",
+      "year": "1994",
+      "journal-title": "Citeseer"
+    },
+    {
+      "key": "ref41",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/HPCA51647.2021.00033"
+    },
+    {
+      "key": "ref42",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/HPCA51647.2021.00033"
+    },
+    {
+      "key": "ref43",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/HPCA53966.2022.00048"
+    },
+    {
+      "key": "ref44",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3352460.3358319"
+    },
+    {
+      "key": "ref45",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3470496.3527442"
+    },
+    {
+      "key": "ref46",
+      "volume-title": "Spec cpu2006 benchmark suite",
+      "year": "2006"
+    },
+    {
+      "key": "ref47",
+      "volume-title": "Spec cpu2017 benchmark suite",
+      "year": "2017"
+    },
+    {
+      "key": "ref48",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/HPCA.2007.346185"
+    },
+    {
+      "key": "ref49",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s11390-022-2911-1"
+    },
+    {
+      "key": "ref50",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/MC.2013.227"
+    },
+    {
+      "key": "ref51",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3422575.3422795"
+    },
+    {
+      "key": "ref52",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/tnn.1998.712192"
+    },
+    {
+      "key": "ref53",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/MICRO.2016.7783705"
+    },
+    {
+      "key": "ref54",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/BF00992698"
+    },
+    {
+      "key": "ref55",
+      "first-page": "430",
+      "article-title": "Ship: Signature-based hit predictor for high performance caching",
+      "volume-title": "Proceedings of the 44th Annual IEEE/ACM International Symposium on Microarchitecture",
+      "author": "Wu"
+    },
+    {
+      "key": "ref56",
+      "first-page": "442",
+      "article-title": "Pacman: prefetch-aware cache management for high performance caching",
+      "volume-title": "Proceedings of the 44th Annual IEEE/ACM International Symposium on Microarchitecture",
+      "author": "Wu"
+    },
+    {
+      "key": "ref57",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ISLPED52811.2021.9502483"
+    },
+    {
+      "key": "ref58",
+      "article-title": "Ship++: Enhancing signature-based hit predictor for improved cache performance",
+      "volume-title": "Proceedings of the Cache Replacement Championship (CRC’17) held in Conjunction with the International Symposium on Computer Architecture (ISCA’17)",
+      "author": "Young"
+    },
+    {
+      "key": "ref59",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/SC41405.2020.00035"
+    },
+    {
+      "key": "ref60",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1145/3502181.3531470"
+    },
+    {
+      "key": "ref61",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/SC41404.2022.00086"
+    },
+    {
+      "key": "ref62",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1109/ESSCIRC.2003.1257158"
+    }
+  ],
+  "event": {
+    "name": "2024 IEEE International Symposium on High-Performance Computer Architecture (HPCA)",
+    "location": "Edinburgh, United Kingdom",
+    "start": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          2
+        ]
+      ]
+    },
+    "end": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          6
+        ]
+      ]
+    }
+  },
+  "container-title": [
+    "2024 IEEE International Symposium on High-Performance Computer Architecture (HPCA)"
+  ],
+  "original-title": [],
+  "link": [
+    {
+      "URL": "http://xplorestaging.ieee.org/ielx7/10476359/10476395/10476439.pdf?arnumber=10476439",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2024,
+        4,
+        3
+      ]
+    ],
+    "date-time": "2024-04-03T01:26:44Z",
+    "timestamp": 1712107604000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://ieeexplore.ieee.org/document/10476439/"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2024,
+        3,
+        2
+      ]
+    ]
+  },
+  "references-count": 62,
+  "URL": "https://doi.org/10.1109/hpca57654.2024.00090",
+  "relation": {},
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2024,
+        3,
+        2
+      ]
+    ]
+  }
+}

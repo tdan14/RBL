@@ -1,0 +1,70 @@
+﻿{
+  "scope": "AI self-check only; no official trace or independent review",
+  "checks_passed": 16,
+  "checks": [
+    {
+      "name": "A/B: round-trip over 262144 low blocks and upper-bound probes",
+      "status": "PASS"
+    },
+    {
+      "name": "A/B: victim writeback addresses require inverse hash",
+      "status": "PASS"
+    },
+    {
+      "name": "A/B/C: conflict examples in R001/R002",
+      "status": "PASS"
+    },
+    {
+      "name": "T01: repeat",
+      "status": "PASS"
+    },
+    {
+      "name": "T02: DAI/D0/D1",
+      "status": "PASS"
+    },
+    {
+      "name": "T03: exact recency expected trace",
+      "status": "PASS"
+    },
+    {
+      "name": "T04: dirty read hit preserves dirty; correct writeback base and traffic",
+      "status": "PASS"
+    },
+    {
+      "name": "T04: clean eviction traffic",
+      "status": "PASS"
+    },
+    {
+      "name": "T05: line boundary",
+      "status": "PASS"
+    },
+    {
+      "name": "T06: debug circular generator arithmetic",
+      "status": "PASS"
+    },
+    {
+      "name": "X01-X03: distinct tags, high bit and maximum address",
+      "status": "PASS"
+    },
+    {
+      "name": "X04: warmup contents, recency and dirty survive counter reset",
+      "status": "PASS"
+    },
+    {
+      "name": "X05: candidate loses against D0/D1 on toy counterexample",
+      "status": "PASS"
+    },
+    {
+      "name": "X06: invalid inputs reject without state mutation",
+      "status": "PASS"
+    },
+    {
+      "name": "Metadata arithmetic: D0/D1/D2/DAI",
+      "status": "PASS"
+    },
+    {
+      "name": "Original input/prompt evidence remains unchanged",
+      "status": "PASS"
+    }
+  ]
+}
