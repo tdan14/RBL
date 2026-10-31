@@ -4,11 +4,13 @@ Simulator Python đã triển khai D0, D1, D2 và DAI-v1 (B — XOR 2-way) theo 
 
 ## Trạng thái
 
+**BATCH01 đã hoàn tất:** 24 trace chính thức × 4 thiết kế = 96 run SUCCESS, 0 FAIL. Dân là người phụ trách/xác nhận theo chỉ định; Codex/Python trực tiếp thực thi. Xem [kết quả](results/BATCH01/Ket_qua_thi_nghiem.md), [evidence index](evidence/EVIDENCE_INDEX.md), [hướng dẫn tái lập](REPRODUCE.md) và [trace freeze](WORKLOAD_FREEZE.md).
+
 - Đã có bốn config, lõi cache dùng chung, parser, runner và xuất JSON/JSONL.
-- Bộ validation tự động hiện có **21 test** và **20 phép đối chiếu** trên năm trace debug × bốn thiết kế, đều PASS trong lần chạy được ghi tại `validation/LATEST.txt`.
+- Bộ validation tự động trước batch có **28 test** (gồm generator và phép tính thống kê) và **20 phép đối chiếu** trên năm trace debug × bốn thiết kế, đều PASS trong lần chạy được ghi tại `validation/LATEST.txt`.
 - Mô hình tham chiếu dùng full block ID và danh sách LRU, khác cách lưu tag nén/LRU bit/rank của implementation chính.
-- Các kiểm tra được AI hỗ trợ xây và chạy, chưa phải xác nhận kiểm tra implementation của thành viên nhóm hoặc đối chiếu Ripes.
-- Chưa tạo official traces W1–W5, chưa chạy 96 run benchmark chính thức và chưa có kết quả về hiệu quả của DAI trên workload chính thức.
+- Các kiểm tra tự động được AI hỗ trợ xây và chạy; người dùng đã xác nhận implementation và ủy quyền batch, được ghi trong `validation/IMPLEMENTATION_SIGNOFF.md`. Không gán tự động thành một review con người độc lập hoặc đối chiếu Ripes.
+- Đã sinh, kiểm tra từng dòng, xác minh hash sinh lại và chốt 24 trace W1–W5 trước khi chạy. Đã chạy lại sáu result mẫu và một result từ bản sao nguồn giải nén sạch, đều khớp. Đây vẫn là cùng môi trường Python, chưa phải kiểm tra trên máy khác.
 
 ## Yêu cầu và cách chạy
 
@@ -72,9 +74,9 @@ OP phải viết hoa R/W; địa chỉ là số thập phân hoặc hex tiền t
 
 Khi không có access đo, hit/miss rate là `null`. Không tự flush cuối run; dirty lines còn trong cache chưa tạo traffic ghi trả. Counter không gồm warmup; cache/dirty/LRU vẫn được giữ qua ranh warmup/measurement. JSONL events có cả warmup, được phân biệt bằng `measured`.
 
-Runner mặc định warmup=10.000, measure=100.000 và mode=debug. Cờ `--mode official` chỉ kiểm tra kích thước khoảng đo chuẩn và yêu cầu trace ID; nó **không tự xác minh trace manifest đã được nhóm chốt hoặc validation đã được duyệt**. Chỉ sử dụng khi đã hoàn tất các điều kiện protocol. Chưa có lượt official được chạy trong giai đoạn triển khai này.
+Runner mặc định warmup=10.000, measure=100.000 và mode=debug. Cờ `--mode official` chỉ kiểm tra kích thước khoảng đo chuẩn và yêu cầu trace ID; nó **không tự xác minh trace manifest đã được nhóm chốt hoặc validation đã được duyệt**. Batch chính thức dùng `tools/run_official_batch.py` để xác minh pre-run inputs và trace hashes trước chạy; 96 run đã được thực hiện theo cách đó.
 
-Không tính AMAT trong lõi hiện tại để tránh đưa giả định latency chưa chốt vào kết quả. Phần phân tích sau sẽ sử dụng counters, miss rate và analysis plan đã hoàn thiện. Thời gian chạy Python không phải latency phần cứng.
+Lõi không tính AMAT. Phân tích riêng tại `results/BATCH01/amat_sensitivity.csv` sử dụng counters và `analysis_plan.json` chốt trước benchmark. Thời gian chạy Python không phải latency phần cứng.
 
 ## Tổ chức mã nguồn
 
@@ -94,4 +96,4 @@ Tham khảo [bảng kiểm tính tay](validation/manual_checks.md), [protocol](e
 
 ## Bước tiếp theo
 
-Thành viên nhóm đối chiếu implementation và 3–5 trace nhỏ bằng bảng kiểm. Sau đó hoàn thiện bố trí địa chỉ, thứ tự thao tác W3/W4, generator/manifests và analysis plan. Chốt official traces/checksum trước khi thực hiện ma trận 96 run. Không thay hàm mapping của DAI-v1 sau khi xem kết quả chính thức.
+Sử dụng raw results, bảng tổng hợp và evidence để viết Results/Discussion của báo cáo. DAI chỉ giảm miss so D0 ở W5 stress trong bộ input này; W1–W4 có miss rate bằng nhau. Giữ nguyên kết quả và giới hạn, không thay mapping hoặc layout để tạo lợi thế sau khi xem số liệu. Bộ bàn giao được đóng tại `delivery/Q10_BATCH01_evidence.zip`, với hash và receipt riêng; cách tái lập có trong `REPRODUCE.md`.

@@ -1,0 +1,33 @@
+test_sample_standard_deviation_not_population (tests.test_analysis.AnalysisTests.test_sample_standard_deviation_not_population) ... ok
+test_zero_baseline_and_relative_vs_absolute (tests.test_analysis.AnalysisTests.test_zero_baseline_and_relative_vs_absolute) ... ok
+test_D1_DAI_write_hit_changes_exact_LRU (tests.test_cache.CacheTests.test_D1_DAI_write_hit_changes_exact_LRU) ... ok
+test_D2_exact_LRU_on_read_write_hit_and_fill (tests.test_cache.CacheTests.test_D2_exact_LRU_on_read_write_hit_and_fill) ... ok
+test_R003_expected_sequences (tests.test_cache.CacheTests.test_R003_expected_sequences) ... ok
+test_T06_circular_wrap (tests.test_cache.CacheTests.test_T06_circular_wrap) ... ok
+test_differential_against_full_block_list_oracle (tests.test_cache.CacheTests.test_differential_against_full_block_list_oracle) ... ok
+test_invalid_inputs_do_not_mutate (tests.test_cache.CacheTests.test_invalid_inputs_do_not_mutate) ... ok
+test_reset_and_empty_metrics (tests.test_cache.CacheTests.test_reset_and_empty_metrics) ... ok
+test_warmup_preserves_dirty_and_recency (tests.test_cache.CacheTests.test_warmup_preserves_dirty_and_recency) ... ok
+test_dai_high_bits_and_inverse_writeback (tests.test_mapping.MappingTests.test_dai_high_bits_and_inverse_writeback) ... ok
+test_frozen_config_rejects_mutations (tests.test_mapping.MappingTests.test_frozen_config_rejects_mutations) ... ok
+test_logic_metadata (tests.test_mapping.MappingTests.test_logic_metadata) ... ok
+test_round_trip_all_designs_boundaries_and_samples (tests.test_mapping.MappingTests.test_round_trip_all_designs_boundaries_and_samples) ... ok
+test_cli_success_failure_and_no_overwrite (tests.test_runner.RunnerTests.test_cli_success_failure_and_no_overwrite) ... ok
+test_invalid_periods_and_official_sizes_are_rejected (tests.test_runner.RunnerTests.test_invalid_periods_and_official_sizes_are_rejected) ... ok
+test_invariant_failure_is_retained_as_failed_record (tests.test_runner.RunnerTests.test_invariant_failure_is_retained_as_failed_record) ... ok
+test_parser_comments_hex_decimal_and_line_numbers (tests.test_runner.RunnerTests.test_parser_comments_hex_decimal_and_line_numbers) ... ok
+test_parser_rejects_bad_lines_without_silent_skipping (tests.test_runner.RunnerTests.test_parser_rejects_bad_lines_without_silent_skipping) ... ok
+test_protocol_sized_debug_run_uses_default_periods (tests.test_runner.RunnerTests.test_protocol_sized_debug_run_uses_default_periods) ... ok
+test_runner_warmup_events_and_reproducible_counters (tests.test_runner.RunnerTests.test_runner_warmup_events_and_reproducible_counters) ... ok
+test_short_extra_invalid_and_missing_trace_fail (tests.test_runner.RunnerTests.test_short_extra_invalid_and_missing_trace_fail) ... ok
+test_zero_measurement_and_no_flush (tests.test_runner.RunnerTests.test_zero_measurement_and_no_flush) ... ok
+test_counts_and_unique_ids (tests.test_workloads.WorkloadTests.test_counts_and_unique_ids) ... ok
+test_moving_average_includes_current_and_wraps_history (tests.test_workloads.WorkloadTests.test_moving_average_includes_current_and_wraps_history) ... ok
+test_seed_replay_and_stride (tests.test_workloads.WorkloadTests.test_seed_replay_and_stride) ... ok
+test_sensor_pointers_are_separate_and_wrap (tests.test_workloads.WorkloadTests.test_sensor_pointers_are_separate_and_wrap) ... ok
+test_sequential_and_circular_boundaries (tests.test_workloads.WorkloadTests.test_sequential_and_circular_boundaries) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 2.749s
+
+OK

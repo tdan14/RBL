@@ -1,0 +1,16 @@
+{
+  "trace_id": "W1-write",
+  "family": "W1",
+  "op": "W",
+  "base": 268435456,
+  "seed": null,
+  "access_count": 110000,
+  "reads": 0,
+  "writes": 110000,
+  "min_address": 268435456,
+  "max_address": 268875452,
+  "sensor_access_counts": null,
+  "path": "traces/official/W1-write.trace",
+  "sha256": "add6362348108c4b752646f6f51cdcd1d1bda8c69b0a8ff5c720ca879088cf6d",
+  "bytes": 1650000
+}

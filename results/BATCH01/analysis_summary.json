@@ -1,0 +1,10 @@
+{
+  "status": "SUCCESS",
+  "operator": "Trương Tô Dân — QE210127",
+  "executor": "Codex/Python",
+  "analyzed_runs": 96,
+  "scenarios": 15,
+  "summary_rows": 60,
+  "amat_rows": 864,
+  "recorded_at": "2026-10-31T16:03:29+07:00"
+}

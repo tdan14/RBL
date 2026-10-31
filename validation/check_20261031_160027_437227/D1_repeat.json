@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "run_id": "DEBUG-D1-repeat",
+  "mode": "debug",
+  "status": "SUCCESS",
+  "protocol_id": "Q10-PROTOCOL-v1.0",
+  "started_at": "2026-10-31T16:00:30+07:00",
+  "config": {
+    "design_id": "D1",
+    "sets": 64,
+    "ways": 2,
+    "mapping": "modulo",
+    "capacity_bytes": 4096,
+    "line_bytes": 32,
+    "write_policy": "write-back",
+    "allocation": "write-allocate",
+    "replacement": "LRU",
+    "prefetch": false,
+    "bypass": false
+  },
+  "design_id": "D1",
+  "trace": {
+    "path": "C:\\Tai_Lieu_Hoc\\CEA201\\RBL\\traces\\debug\\repeat.trace",
+    "trace_id": "DEBUG-repeat",
+    "seed": null,
+    "sha256": "96af9fa84daebb23fce20e665d5aa0901254f76a3132e94ea9cb90135e0e77d6"
+  },
+  "requested": {
+    "warmup_accesses": 0,
+    "measured_accesses": 2
+  },
+  "observed": {
+    "warmup_accesses": 0,
+    "measured_accesses": 2
+  },
+  "model": "single-level tag/dirty/traffic; no payload, prefetch, bypass, or final flush",
+  "environment": {
+    "python": "3.11.9",
+    "platform": "Windows-10-10.0.26300-SP0"
+  },
+  "simulator": {
+    "version": "1.0.0",
+    "source_sha256": "e8f6f82a4531d9b59e9ccd63b8291d3be43a9f4002b16674cfdceb195a3d2c86",
+    "files": {
+      "src/__init__.py": "f60c236084e04b6bd2113a64e322510732dd748053ecd1bdf88ca97083ff77fb",
+      "src/simulator/__init__.py": "f3b571a2933a582f180dc33a71c693b3938336f7597e67c8c2cb724d36e8a6e9",
+      "src/simulator/cache.py": "65df79f74fed28d4bbe117f2d23d9f16bd42c4659717d8b5e9995ef52a73f79d",
+      "src/simulator/mapping.py": "bd8d23ca8705f8acf2690ef286af77c1cc4db14b002184b1a1dd2a055c23b6df",
+      "src/simulator/models.py": "d4fea215d87828df6c9be4e3c84622a2227b1f8d197cd3b55d827e9e441d9fb4",
+      "src/simulator/runner.py": "06b28d1f6bace657d931a018847d59152b82272abe528ce14b1d9b6cff2534af",
+      "src/simulator/trace.py": "c3deb3fca723baf682fa35d986298997e9679b06fd923997a5d2e6846cf8ec49",
+      "src/workloads.py": "d7bfdbcdc380d25148d32e3e9d3613ee9135a79adf784d4e986121a87cb1d1ca",
+      "configs/D0.json": "c4ce9d2df9d7878679a2ee5d3eef4692c4590122152560ad33bfa663f4e01136",
+      "configs/D1.json": "e44c5256b7f19a2db5f146282df13803d4c8f5c5f03503ae2228a17f304263fd",
+      "configs/D2.json": "b1615ed4e01db56b3cbb45ff38a46220f9ad040acc58f1700b5fee2176160da6",
+      "configs/DAI-v1.json": "9a586cb003528c62bc093988ba13677ed50bc3d673729cc5f48648920c26adab"
+    }
+  },
+  "protocol_sha256": "edc53f5fca930a031076279a1ea4a8280fae1abc768d630f60544a21cadfd0a6",
+  "design_freeze_sha256": "7b5a803d23ee2a6c7ca742cc21144aad5022d504e5f8a4a3a5a6df33a1bfc491",
+  "counters": {
+    "accesses": 2,
+    "hits": 1,
+    "misses": 1,
+    "read_misses": 1,
+    "write_misses": 0,
+    "evictions": 0,
+    "dirty_writebacks": 0,
+    "line_fills": 1
+  },
+  "metrics": {
+    "hit_rate": 0.5,
+    "miss_rate": 0.5,
+    "memory_traffic_bytes": 32,
+    "metadata_logic_bytes": 376
+  },
+  "metrics_validated": true,
+  "finished_at": "2026-10-31T16:00:30+07:00"
+}

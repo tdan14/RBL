@@ -1,0 +1,40 @@
+{
+  "run_id": "RUN-000051",
+  "operator": "Trương Tô Dân — QE210127",
+  "executor": "Codex/Python",
+  "trace_id": "W4-random-S02",
+  "design_id": "D2",
+  "seed": 2,
+  "status": "SUCCESS",
+  "started_at": "2026-10-31T16:01:52+07:00",
+  "finished_at": "2026-10-31T16:01:53+07:00",
+  "result_path": "runs/BATCH01/RUN-000051/result.json",
+  "result_sha256": "2b8566d0f59e90afd74ad5458f88def24f7d459accf6f694fc59bb2ca4e843f5",
+  "trace_sha256": "ad5d633a24662b9ad28a8910d4a2df7d5b173bed9bb8f4cbfee9a27f43448aac",
+  "config": {
+    "design_id": "D2",
+    "sets": 32,
+    "ways": 4,
+    "mapping": "modulo",
+    "capacity_bytes": 4096,
+    "line_bytes": 32,
+    "write_policy": "write-back",
+    "allocation": "write-allocate",
+    "replacement": "LRU",
+    "prefetch": false,
+    "bypass": false
+  },
+  "requested_warmup": 10000,
+  "requested_measured": 100000,
+  "counters": {
+    "accesses": 100000,
+    "hits": 100000,
+    "misses": 0,
+    "read_misses": 0,
+    "write_misses": 0,
+    "evictions": 0,
+    "dirty_writebacks": 0,
+    "line_fills": 0
+  },
+  "error": null
+}

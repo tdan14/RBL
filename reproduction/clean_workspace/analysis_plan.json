@@ -1,0 +1,18 @@
+{
+  "plan_id": "Q10-ANALYSIS-v1.0",
+  "primary": "miss_rate_by_scenario",
+  "secondary": ["hits", "misses", "evictions", "dirty_writebacks", "memory_traffic_bytes"],
+  "baseline": "D0",
+  "miss_penalties_cycles": [20, 50, 100],
+  "hit_time_scenarios_cycles": {
+    "common_1": {"D0": 1, "D1": 1, "D2": 1, "DAI-v1": 1},
+    "DAI_1_5": {"D0": 1, "D1": 1, "D2": 1, "DAI-v1": 1.5},
+    "DAI_2": {"D0": 1, "D1": 1, "D2": 1, "DAI-v1": 2}
+  },
+  "amat_definition": "hit_time + miss_rate * extra_miss_penalty; writeback stalls not included",
+  "zero_baseline": "relative_reduction=null; report absolute difference",
+  "random_summary": "W4 random, all seeds 1..10, arithmetic mean, sample stddev ddof=1, min and max",
+  "selection": "all 96 planned runs must succeed; failed runs retained and excluded from summaries",
+  "aggregation": "each deterministic scenario separately; W4-even separately from W4-random; no pooled overall AI win score",
+  "limitations": "Assumed latencies, not hardware measurements; no inference test or energy claim"
+}

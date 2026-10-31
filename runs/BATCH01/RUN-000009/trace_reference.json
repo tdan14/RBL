@@ -1,0 +1,16 @@
+{
+  "trace_id": "W2-1024",
+  "family": "W2",
+  "buffer_bytes": 1024,
+  "base": 536870912,
+  "seed": null,
+  "access_count": 110000,
+  "reads": 110000,
+  "writes": 0,
+  "min_address": 536870912,
+  "max_address": 536871932,
+  "sensor_access_counts": null,
+  "path": "traces/official/W2-1024.trace",
+  "sha256": "a127f0bb410e40f8f36043ef76e8465da40ab1ca085643dbfd5201cc7a5cf89d",
+  "bytes": 1650000
+}

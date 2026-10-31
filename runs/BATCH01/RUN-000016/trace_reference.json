@@ -1,0 +1,16 @@
+{
+  "trace_id": "W2-4096",
+  "family": "W2",
+  "buffer_bytes": 4096,
+  "base": 536870912,
+  "seed": null,
+  "access_count": 110000,
+  "reads": 110000,
+  "writes": 0,
+  "min_address": 536870912,
+  "max_address": 536875004,
+  "sensor_access_counts": null,
+  "path": "traces/official/W2-4096.trace",
+  "sha256": "75dd038b1ffcfe6895fe90bb24cb2afd8313e2a9000fc02ad400ad620410ff91",
+  "bytes": 1650000
+}

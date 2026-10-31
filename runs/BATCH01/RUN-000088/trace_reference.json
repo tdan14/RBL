@@ -1,0 +1,17 @@
+{
+  "trace_id": "W5-K2",
+  "family": "W5",
+  "blocks": 2,
+  "stride": 4096,
+  "base": 1342177280,
+  "seed": null,
+  "access_count": 110000,
+  "reads": 110000,
+  "writes": 0,
+  "min_address": 1342177280,
+  "max_address": 1342181376,
+  "sensor_access_counts": null,
+  "path": "traces/official/W5-K2.trace",
+  "sha256": "161f4439936a338772e63a77d13bd8ff604af8cd6c5f89c923c81ad7292c3e8a",
+  "bytes": 1650000
+}
