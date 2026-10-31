@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "pages": 12,
+  "visual_review": "All 12 pages inspected in contact sheets; final render identical after page-anchor fix.",
+  "final_render_matches_reviewed_pages": true,
+  "bibliography_entries": 9,
+  "all_references_cited": true,
+  "unique_doi_links": 9,
+  "local_machine_path_citations": false,
+  "section_word_counts": {
+    "abstract": 210,
+    "introduction": 296,
+    "literature": 942,
+    "methodology": 450,
+    "results": 372,
+    "discussion": 497,
+    "conclusion": 244
+  },
+  "csv_copies_match_batch01": true,
+  "numeric_claim_checks": "PASS; see data_checks.json",
+  "hardware_constraint_statement": "Insufficient time and financial resources for hardware implementation and validation.",
+  "compile": "Successful; no overfull boxes, missing characters, undefined citations, or duplicate page anchors.",
+  "nonblocking_compile_messages": [
+    "Underfull bibliography box; visually reviewed.",
+    "Fontconfig default-config notice; explicit font files rendered correctly."
+  ],
+  "review_scope": "Automated checks and AI visual review; no independent human or hardware validation asserted."
+}

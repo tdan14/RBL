@@ -1,0 +1,13 @@
+{
+  "pdf": {
+    "file": "Q10_AI21B_Cache_Mapping_Report.pdf",
+    "bytes": 112243,
+    "sha256": "6eaa75448dd23b38d0142a299efb1e18dc33af2c0c8d245d73221e2c70e064e8"
+  },
+  "latex_bundle": {
+    "file": "Q10_AI21B_Report_LaTeX.zip",
+    "bytes": 184279,
+    "sha256": "44521bde5c81b6c673c58707f6576d97fdad8a96f29e31292ef44568579a61b8"
+  },
+  "experiment_evidence": "Existing Q10_BATCH01_evidence.zip and receipt.json retained unchanged."
+}
