@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "recorded_at": "2026-10-31T16:06:47+07:00",
+  "operator": "Trương Tô Dân — QE210127",
+  "executor": "Codex/Python",
+  "frozen_files_verified": 45,
+  "trace_hashes_verified": 24,
+  "raw_result_hashes_verified": 96,
+  "run_successes": 96,
+  "run_failures": 0,
+  "csv_rows": {
+    "all_runs.csv": 96,
+    "scenario_summary.csv": 60,
+    "amat_sensitivity.csv": 864
+  },
+  "same_environment_replays": 6,
+  "clean_copy_replays": 1,
+  "AI_history_scope": "Existing prompts/responses/logs; full chat export not required by user"
+}

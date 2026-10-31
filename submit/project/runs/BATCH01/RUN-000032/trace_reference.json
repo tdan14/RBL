@@ -1,0 +1,17 @@
+{
+  "trace_id": "W3-N128",
+  "family": "W3",
+  "window": 128,
+  "ring_samples": 4096,
+  "base": 805306368,
+  "seed": null,
+  "access_count": 110000,
+  "reads": 109147,
+  "writes": 853,
+  "min_address": 805306368,
+  "max_address": 805322748,
+  "sensor_access_counts": null,
+  "path": "traces/official/W3-N128.trace",
+  "sha256": "bd83549c1e1e4b3351eb7bbc36648f115ccbc44ebe1d85c6ae28c2f45cb3f5ff",
+  "bytes": 1650000
+}

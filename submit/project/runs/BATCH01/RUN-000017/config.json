@@ -1,0 +1,13 @@
+{
+  "design_id": "D0",
+  "sets": 128,
+  "ways": 1,
+  "mapping": "modulo",
+  "capacity_bytes": 4096,
+  "line_bytes": 32,
+  "write_policy": "write-back",
+  "allocation": "write-allocate",
+  "replacement": "LRU",
+  "prefetch": false,
+  "bypass": false
+}

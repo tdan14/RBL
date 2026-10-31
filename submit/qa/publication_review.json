@@ -1,0 +1,68 @@
+{
+  "scope": "Bibliographic identity and claims used in the report; not a guarantee of current publication status.",
+  "records": [
+    {
+      "id": "LIT-001",
+      "doi": "10.1109/TC.2024.3349659",
+      "cited_year": 2024,
+      "primary_source": "https://wsong83.github.io/publication/comparch/tc2024.pdf",
+      "review_evidence": "Author full text accessed; saved full text and metadata cross-checked."
+    },
+    {
+      "id": "LIT-002",
+      "doi": "10.1109/ISCA59077.2024.00013",
+      "cited_year": 2024,
+      "primary_source": "https://www.cse.iitb.ac.in/~biswa/ISCA2024.pdf",
+      "review_evidence": "Author/institutional full text accessed; metadata cross-checked."
+    },
+    {
+      "id": "LIT-003",
+      "doi": "10.1109/SP46215.2023.10179440",
+      "cited_year": 2023,
+      "primary_source": "https://antoonpurnal.github.io/files/pdf/SassCache.pdf",
+      "review_evidence": "Author full text accessed; metadata cross-checked."
+    },
+    {
+      "id": "LIT-004",
+      "doi": "10.1109/ISCA59077.2024.00047",
+      "cited_year": 2024,
+      "primary_source": "https://www.pdl.cmu.edu/PDL-FTP/associated/Tartan-ISCA24.pdf",
+      "review_evidence": "Institutional full text accessed; 2024 proceedings edition distinguished from later distribution cover date."
+    },
+    {
+      "id": "LIT-005",
+      "doi": "10.1109/HPCA61900.2025.00060",
+      "cited_year": 2025,
+      "primary_source": "https://www.thu-haslab.org/publication/co-public/2025-from-optimal-to-practical/19_HPCA2025_micro-op_cache.pdf",
+      "review_evidence": "Author full text accessed; metadata and authors cross-checked."
+    },
+    {
+      "id": "LIT-006",
+      "doi": "10.1145/3579371.3589097",
+      "cited_year": 2023,
+      "primary_source": "https://liberty.princeton.edu/Publications/isca23_emissary.pdf",
+      "review_evidence": "Submission-stage request returned HTTP 403; saved full text and DOI metadata used. DOI page also not retrievable through browser tool."
+    },
+    {
+      "id": "LIT-007",
+      "doi": "10.1109/HPCA57654.2024.00090",
+      "cited_year": 2024,
+      "primary_source": "https://cs.iit.edu/~scs/assets/files/lu2024chrome.pdf",
+      "review_evidence": "Institutional full text discovered in primary-source search; saved author full text and metadata checked."
+    },
+    {
+      "id": "LIT-008",
+      "doi": "10.1007/s11390-022-1573-3",
+      "cited_year": 2023,
+      "primary_source": "https://jcst.ict.ac.cn/article/doi/10.1007/s11390-022-1573-3",
+      "review_evidence": "Publisher record and full text accessed; 2023 journal date verified."
+    },
+    {
+      "id": "LIT-009",
+      "doi": "10.4230/LIPIcs.OPODIS.2023.34",
+      "cited_year": 2024,
+      "primary_source": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.OPODIS.2023.34",
+      "review_evidence": "Publisher record and full text accessed; publication date 2024-01-18 verified."
+    }
+  ]
+}

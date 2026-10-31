@@ -1,0 +1,21 @@
+{
+  "trace_id": "W4-even",
+  "family": "W4",
+  "random": false,
+  "base": 1073741824,
+  "seed": null,
+  "access_count": 110000,
+  "reads": 0,
+  "writes": 110000,
+  "min_address": 1073741824,
+  "max_address": 1073745916,
+  "sensor_access_counts": [
+    27500,
+    27500,
+    27500,
+    27500
+  ],
+  "path": "traces/official/W4-even.trace",
+  "sha256": "61f2f4b0b8a57a13c8bb20e4b3ddc41c65ac8a5a09f4974ee0621f33538706bb",
+  "bytes": 1650000
+}

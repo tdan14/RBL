@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "recorded_at": "2026-10-31T16:03:24+07:00",
+  "operator": "Trương Tô Dân — QE210127",
+  "executor": "Codex/Python",
+  "count": 6,
+  "replays": [
+    {
+      "run_id": "RUN-000004",
+      "status": "MATCH",
+      "path": "reproduction/replay_RUN-000004.json",
+      "sha256": "fcfa49af8d1d4245664b8972c67affe6842bf8bf2582a01dd30989e18e5eface"
+    },
+    {
+      "run_id": "RUN-000020",
+      "status": "MATCH",
+      "path": "reproduction/replay_RUN-000020.json",
+      "sha256": "6612434410e3c863afb09f5f28bb9933c78ea29d27ff9c2e58558ce41d9ee935"
+    },
+    {
+      "run_id": "RUN-000040",
+      "status": "MATCH",
+      "path": "reproduction/replay_RUN-000040.json",
+      "sha256": "0ccc7804da935c4318b19899c545e9af77d76c68cd1356c120a2a9208bd3bc58"
+    },
+    {
+      "run_id": "RUN-000048",
+      "status": "MATCH",
+      "path": "reproduction/replay_RUN-000048.json",
+      "sha256": "41d107a526906f74fb7ad48b1ba595bae97b2c0e989ed35876374399ccbb9593"
+    },
+    {
+      "run_id": "RUN-000095",
+      "status": "MATCH",
+      "path": "reproduction/replay_RUN-000095.json",
+      "sha256": "558743125348146daacf1b8a0bd42601e0657a50fa2bd44b602dbcf06bf8cbcb"
+    },
+    {
+      "run_id": "RUN-000096",
+      "status": "MATCH",
+      "path": "reproduction/replay_RUN-000096.json",
+      "sha256": "2f014d2302684ef97d52b6493a45191661399e90a3ff177cca01d1644604397c"
+    }
+  ],
+  "scope": "same-environment sample replay; not an independent hardware experiment or a clean-machine test"
+}

@@ -1,0 +1,21 @@
+{
+  "trace_id": "W4-random-S08",
+  "family": "W4",
+  "random": true,
+  "base": 1073741824,
+  "seed": 8,
+  "access_count": 110000,
+  "reads": 0,
+  "writes": 110000,
+  "min_address": 1073741824,
+  "max_address": 1073745916,
+  "sensor_access_counts": [
+    27632,
+    27746,
+    27337,
+    27285
+  ],
+  "path": "traces/official/W4-random-S08.trace",
+  "sha256": "c949fe52eb5c39a6a28787d4f4f70dced02eea5c608250567373217c696996df",
+  "bytes": 1650000
+}

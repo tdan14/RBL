@@ -1,0 +1,2 @@
+{"access_number": 1, "trace_line": 2, "operation": "R", "address": 0, "block": 0, "index": 0, "tag": 0, "way": 0, "hit": false, "measured": true, "victim_block": null, "writeback_base": null, "fill_base": 0}
+{"access_number": 2, "trace_line": 3, "operation": "R", "address": 0, "block": 0, "index": 0, "tag": 0, "way": 0, "hit": true, "measured": true, "victim_block": null, "writeback_base": null, "fill_base": null}

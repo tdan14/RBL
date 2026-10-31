@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "recorded_at": "2026-10-31T16:04:25+07:00",
+  "operator": "Trương Tô Dân — QE210127",
+  "executor": "Codex/Python",
+  "source": "source_snapshot_before_runs.zip",
+  "run_id": "RUN-000040",
+  "matches_original": true,
+  "scope": "clean extracted source copy, same installed Python/environment; not a different machine",
+  "stdout": "MATCH RUN-000040: replay_clean.json\n"
+}

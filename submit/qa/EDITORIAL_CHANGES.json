@@ -1,0 +1,74 @@
+{
+  "original_archive_sha256": "353d17c95858153a2f8523dd98a65db8a51fd25e6401682ba39e5b737e01de7e",
+  "historical_manifest_entries_verified": 585,
+  "frozen_file_hashes_unchanged": 45,
+  "modified_files": [
+    {
+      "path": "project/evidence/AI_USAGE.md",
+      "original_sha256": "0bc2930f3b2657a5f2231aeef289bdd0b6e78af3f9951db8acc4f2ed16775326",
+      "submission_sha256": "92c4fba64efeef5058cfdf7adea39358eebe5fa651df684b746a96c865a94fff",
+      "category": "Non-frozen explanatory document; objective prose, consistency, or portable reproduction. Scientific source and original results unchanged."
+    },
+    {
+      "path": "project/evidence/EVIDENCE_INDEX.md",
+      "original_sha256": "b525a7aa80b681a9c0ad3accb930b6fe0139e34492c973e6822ea0c8bb356539",
+      "submission_sha256": "fee89f7eebc869626a9daad7a3617a00648dc06602a665aab58e4377a8c9ff3f",
+      "category": "Non-frozen explanatory document; objective prose, consistency, or portable reproduction. Scientific source and original results unchanged."
+    },
+    {
+      "path": "project/Ke_hoach_xay_simulator.md",
+      "original_sha256": "30dbf61ceedeb93467b793737f89dd4d12a766e68ef279461f66997564194bc0",
+      "submission_sha256": "ee22df861cdba3dda01c7bda4f2f8541867d21faa2c976a8ac0601fc320ef50c",
+      "category": "Non-frozen explanatory document; objective prose, consistency, or portable reproduction. Scientific source and original results unchanged."
+    },
+    {
+      "path": "project/README.md",
+      "original_sha256": "09f84cf90d133315f515fc8a0f213cc32548df6bc16f2b03e1f282ef7f639c21",
+      "submission_sha256": "d1277730fb07c5d32625d64935c8b9f04bb5ab1e684c3d885ebb0f018354419b",
+      "category": "Non-frozen explanatory document; objective prose, consistency, or portable reproduction. Scientific source and original results unchanged."
+    },
+    {
+      "path": "project/REPRODUCE.md",
+      "original_sha256": "2d362fa2ede9d7cb3108f10bcc6897e3d2ba82b1a959ee19a2776a87463611f7",
+      "submission_sha256": "0fa9886aed9cd8cc0972a222e87edef31e0f72ba20e836fa7cc7cba647023690",
+      "category": "Non-frozen explanatory document; objective prose, consistency, or portable reproduction. Scientific source and original results unchanged."
+    },
+    {
+      "path": "project/results/BATCH01/Discussion.md",
+      "original_sha256": "60d831a45166130b933b79fcc653f1506b964a4a44d0c6bb538ea38783ccd3ef",
+      "submission_sha256": "4b8e4608e975e519bbf7fb7f81d2879b0b737c9763ba59c089fb2a23afeb6d7b",
+      "category": "Non-frozen explanatory document; objective prose, consistency, or portable reproduction. Scientific source and original results unchanged."
+    },
+    {
+      "path": "project/results/BATCH01/Ket_qua_thi_nghiem.md",
+      "original_sha256": "279b5d929d48c263557faf17a378520dbdfd13c842e9faa5e94575c748b1dc72",
+      "submission_sha256": "2fb128aaec22bf7d51a773cf47ca161a7f0a5d4135c01de4bdfd06f5739c7f83",
+      "category": "Non-frozen explanatory document; objective prose, consistency, or portable reproduction. Scientific source and original results unchanged."
+    },
+    {
+      "path": "project/Tieu_chi_lua_chon_tai_lieu_tham_khao.md",
+      "original_sha256": "f3dcfb1f27bdc4448ab5c996fbdc0d74b3884ac13ec0c863a4327bc138c54cfd",
+      "submission_sha256": "3bf9cdbb43c5f3c3c15b24c798ccb996ce5a1a64ccf74106a06123ac49c73e48",
+      "category": "Non-frozen explanatory document; objective prose, consistency, or portable reproduction. Scientific source and original results unchanged."
+    },
+    {
+      "path": "project/Tong_hop_9_bai_bao_tham_khao_Q10.md",
+      "original_sha256": "d812b2fa879baf05f5fe8c167785bc1fd3c59be05cc4280454776da504672f6d",
+      "submission_sha256": "42a313c134cbc71f52f38bb6d62929af612cceb0d79592989e7e4b81c2888fe9",
+      "category": "Non-frozen explanatory document; objective prose, consistency, or portable reproduction. Scientific source and original results unchanged."
+    },
+    {
+      "path": "report/main.tex",
+      "original_sha256": "40d109043ff93d128baf0443d5b702b2c1da39a69bfdf157d219f018a5236711",
+      "submission_sha256": "1778406c04296fb0c2c8522af681dd0f63723d28ede420df77ca7bf92ae85a82",
+      "category": "Submission report wording, metadata derivation, date, QA disclosure, or packaged input location."
+    },
+    {
+      "path": "report/prepare_assets.py",
+      "original_sha256": "a6ac3219a244a505b3bae1dcee495eaaa34fa7b7682c459b7b2b72f6adeb93aa",
+      "submission_sha256": "42205214bf6c06cf3aa325a24cb495dda0906785bdf442d1693c835d4ac897e8",
+      "category": "Submission report wording, metadata derivation, date, QA disclosure, or packaged input location."
+    }
+  ],
+  "added_material": "Submission README, objective report source documentation, analysis-regeneration wrapper, data dictionary, and submission QA records. Original archive retained verbatim."
+}

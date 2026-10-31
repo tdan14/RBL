@@ -1,0 +1,13 @@
+{
+  "design_id": "D2",
+  "sets": 32,
+  "ways": 4,
+  "mapping": "modulo",
+  "capacity_bytes": 4096,
+  "line_bytes": 32,
+  "write_policy": "write-back",
+  "allocation": "write-allocate",
+  "replacement": "LRU",
+  "prefetch": false,
+  "bypass": false
+}

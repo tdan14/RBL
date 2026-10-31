@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "edition": "2026-11-01, Asia/Saigon",
+  "archive": "submit.zip",
+  "archive_bytes": 6822257,
+  "archive_sha256": "751cf082d6a111feff61c63293194203dbce7eb585603f343f9ad225815eaeb4",
+  "files": 625,
+  "packaged_file_hashes_verified": 624,
+  "historical_archive_preserved": true,
+  "original_workspace_files_verified": 708,
+  "original_workspace_files_changed": 0,
+  "clean_extraction_unit_tests": "28 PASS",
+  "clean_extraction_replay": "RUN-000040 MATCH",
+  "same_environment": true,
+  "scientific_audit": "96/96 replays and 96/96 full-trace reference counter comparisons PASS",
+  "report": "12-page English PDF; all pages visually reviewed; nine cited publications",
+  "integrity_note": "Receipt is external to the ZIP to avoid a self-referential archive hash. Submission checksums cover all packaged files except the manifest itself."
+}

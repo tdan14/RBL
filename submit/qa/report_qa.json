@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "pages": 12,
+  "visual_review": "All 12 rendered pages inspected; no clipped or overlapping content observed.",
+  "doi_links": [
+    "https://doi.org/10.1007/s11390-022-1573-3",
+    "https://doi.org/10.1109/HPCA57654.2024.00090",
+    "https://doi.org/10.1109/HPCA61900.2025.00060",
+    "https://doi.org/10.1109/ISCA59077.2024.00013",
+    "https://doi.org/10.1109/ISCA59077.2024.00047",
+    "https://doi.org/10.1109/SP46215.2023.10179440",
+    "https://doi.org/10.1109/TC.2024.3349659",
+    "https://doi.org/10.1145/3579371.3589097",
+    "https://doi.org/10.4230/LIPIcs.OPODIS.2023.34"
+  ],
+  "bibliography_entries": 9,
+  "all_entries_cited": true,
+  "local_path_citations": false,
+  "section_word_counts": {
+    "abstract": 210,
+    "introduction": 290,
+    "literature": 942,
+    "methodology": 459,
+    "results": 372,
+    "discussion": 497,
+    "conclusion": 244
+  },
+  "report_data_match_originals": true,
+  "pdf_sha256": "611d8535c4affaf422ee8ebdff129d02d8bad53724dbf2e3341c000530d81f12",
+  "render_sha256": {
+    "page-01.png": "b0299782041732c84bb2568874e3a8c3071f0e859383f6fcf66bf5c10d6dba8e",
+    "page-02.png": "4b117fcd0c23a88983838f54eef8bcf86198dd751a9a5843a94aa414637cd3ce",
+    "page-03.png": "68ce3478490f0c0da02c51d63c9e0e026725d4c2524290e90b0cbead90cd073a",
+    "page-04.png": "43a7f3eb203f3e24bc55bb4b7fb99c70e2a523ce5d3c0b1d9346a32c7b526672",
+    "page-05.png": "915aec8e2897cd1bdbd14c8be9172babc6498d0adf894c477d471ef4976435e7",
+    "page-06.png": "fd18f45f4908fcee208265b8dfe5d45eefaf2fb48230322ee2f7688aaf75b6fd",
+    "page-07.png": "efc6a6187f397fc5fa5a4acfb9f794ce7b644860f850583ec587a17357ecef2c",
+    "page-08.png": "24cc08b7e78023482b8ab4f4b9a4d5f8df8976dcc7131dcc82296873997a7709",
+    "page-09.png": "cb0c12531eb21677bcb3454991aea408a7b0cb88ba7333e9d276025217b93a5e",
+    "page-10.png": "c90548964dcc5df02436bc53cfa9ad6888d81c1d673c105f09cb08b5fe595705",
+    "page-11.png": "ac121603828c3781a4b37e09ba2659efffc2e8cd55cb77abbf3f1cf83cca5ca1",
+    "page-12.png": "0feec4f3fdb12343fe907c537218ed48ee0fe524c4b8fbf4a087d0259b4df60a"
+  },
+  "compile_notes": [
+    "One underfull bibliography paragraph; visually readable.",
+    "Fontconfig notice; explicit font files rendered correctly."
+  ],
+  "review_type": "AI-assisted automated and visual review, not independent human assessment."
+}

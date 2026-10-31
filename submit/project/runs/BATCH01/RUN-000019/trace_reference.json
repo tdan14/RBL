@@ -1,0 +1,16 @@
+{
+  "trace_id": "W2-16384",
+  "family": "W2",
+  "buffer_bytes": 16384,
+  "base": 536870912,
+  "seed": null,
+  "access_count": 110000,
+  "reads": 110000,
+  "writes": 0,
+  "min_address": 536870912,
+  "max_address": 536887292,
+  "sensor_access_counts": null,
+  "path": "traces/official/W2-16384.trace",
+  "sha256": "355fc0337713741f4a26631f6a64fe6f58abb085b2a29b4a934d2cee02efbc29",
+  "bytes": 1650000
+}

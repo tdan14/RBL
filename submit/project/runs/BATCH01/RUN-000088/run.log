@@ -1,0 +1,40 @@
+{
+  "run_id": "RUN-000088",
+  "operator": "Trương Tô Dân — QE210127",
+  "executor": "Codex/Python",
+  "trace_id": "W5-K2",
+  "design_id": "DAI-v1",
+  "seed": null,
+  "status": "SUCCESS",
+  "started_at": "2026-10-31T16:02:16+07:00",
+  "finished_at": "2026-10-31T16:02:16+07:00",
+  "result_path": "runs/BATCH01/RUN-000088/result.json",
+  "result_sha256": "c37a09ade20b0f294bb3b7ea869086da83787ea23653763430ef8e503c32424d",
+  "trace_sha256": "161f4439936a338772e63a77d13bd8ff604af8cd6c5f89c923c81ad7292c3e8a",
+  "config": {
+    "design_id": "DAI-v1",
+    "sets": 64,
+    "ways": 2,
+    "mapping": "xor",
+    "capacity_bytes": 4096,
+    "line_bytes": 32,
+    "write_policy": "write-back",
+    "allocation": "write-allocate",
+    "replacement": "LRU",
+    "prefetch": false,
+    "bypass": false
+  },
+  "requested_warmup": 10000,
+  "requested_measured": 100000,
+  "counters": {
+    "accesses": 100000,
+    "hits": 100000,
+    "misses": 0,
+    "read_misses": 0,
+    "write_misses": 0,
+    "evictions": 0,
+    "dirty_writebacks": 0,
+    "line_fills": 0
+  },
+  "error": null
+}

@@ -1,0 +1,13 @@
+{
+  "data_rows": {
+    "runs": 96,
+    "summary": 60,
+    "amat": 864
+  },
+  "numeric_claim_checks": "PASS",
+  "data_sha256": {
+    "all_runs.csv": "b9b2702a9935688732150294ccb6c3854686d45cb62e872be84ec90ae55efd7b",
+    "amat_sensitivity.csv": "7c44caf4aa7bca35da2840314e623b8f49bb56d8b6609546ea2cbb07b7336f0a",
+    "scenario_summary.csv": "8762d0dd1ef74f3a52f661c0e6b12d8dbf6721795f2c7647377a49e516f47833"
+  }
+}

@@ -1,0 +1,1749 @@
+{
+  "status": "PASS",
+  "frozen_file_hashes_verified": 45,
+  "traces_verified": 24,
+  "generator_regenerations": 24,
+  "trace_specifications_verified": 24,
+  "unit_tests": 28,
+  "full_replays": 96,
+  "full_trace_reference_comparisons": 96,
+  "measured_accesses": 9600000,
+  "csv_rows": {
+    "all_runs": 96,
+    "scenario_summary": 60,
+    "amat_sensitivity": 864
+  },
+  "scientific_fields_unchanged": true,
+  "elapsed_seconds": 249.128,
+  "scope": "Submission QA on the same installed environment; these checks are not additional independent samples, hardware validation, or independent human review.",
+  "runs": [
+    {
+      "run_id": "RUN-000001",
+      "trace_id": "W1-read",
+      "design": "D0",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 87500,
+        "misses": 12500,
+        "read_misses": 12500,
+        "write_misses": 0,
+        "evictions": 12500,
+        "dirty_writebacks": 0,
+        "line_fills": 12500
+      },
+      "original_sha256": "c83f5154aad76764d0e27698b368c66bbcbc7e174159331e1017dc0c3083d4f4"
+    },
+    {
+      "run_id": "RUN-000002",
+      "trace_id": "W1-read",
+      "design": "D1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 87500,
+        "misses": 12500,
+        "read_misses": 12500,
+        "write_misses": 0,
+        "evictions": 12500,
+        "dirty_writebacks": 0,
+        "line_fills": 12500
+      },
+      "original_sha256": "367339a75fbbab6aeeb279c4f1ed59094a75e6a0c2eee738e3b44aa7e0e5a4b0"
+    },
+    {
+      "run_id": "RUN-000003",
+      "trace_id": "W1-read",
+      "design": "D2",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 87500,
+        "misses": 12500,
+        "read_misses": 12500,
+        "write_misses": 0,
+        "evictions": 12500,
+        "dirty_writebacks": 0,
+        "line_fills": 12500
+      },
+      "original_sha256": "2301908ffc276f0029a6ebddde00e5ab5fd428c397cbfbd8d4a106a597007261"
+    },
+    {
+      "run_id": "RUN-000004",
+      "trace_id": "W1-read",
+      "design": "DAI-v1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 87500,
+        "misses": 12500,
+        "read_misses": 12500,
+        "write_misses": 0,
+        "evictions": 12500,
+        "dirty_writebacks": 0,
+        "line_fills": 12500
+      },
+      "original_sha256": "6f68510e70a6d14a4ed518335e9212e55c70bf9637afedcd84fee82bf6cbb3be"
+    },
+    {
+      "run_id": "RUN-000005",
+      "trace_id": "W1-write",
+      "design": "D0",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 87500,
+        "misses": 12500,
+        "read_misses": 0,
+        "write_misses": 12500,
+        "evictions": 12500,
+        "dirty_writebacks": 12500,
+        "line_fills": 12500
+      },
+      "original_sha256": "5701cc1efb9ae3b8c0b9da5695ecf94cfae29680b4cdf2ebe5ce0f45b530695b"
+    },
+    {
+      "run_id": "RUN-000006",
+      "trace_id": "W1-write",
+      "design": "D1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 87500,
+        "misses": 12500,
+        "read_misses": 0,
+        "write_misses": 12500,
+        "evictions": 12500,
+        "dirty_writebacks": 12500,
+        "line_fills": 12500
+      },
+      "original_sha256": "8ac5771d6080941f520d727ef1b6e02245f9528e384e5b6bdd3e2af8af1a179e"
+    },
+    {
+      "run_id": "RUN-000007",
+      "trace_id": "W1-write",
+      "design": "D2",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 87500,
+        "misses": 12500,
+        "read_misses": 0,
+        "write_misses": 12500,
+        "evictions": 12500,
+        "dirty_writebacks": 12500,
+        "line_fills": 12500
+      },
+      "original_sha256": "c31354edd8bcaaa6444ee237c24fff507561c0e35d469949c6c2143d93e7f49b"
+    },
+    {
+      "run_id": "RUN-000008",
+      "trace_id": "W1-write",
+      "design": "DAI-v1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 87500,
+        "misses": 12500,
+        "read_misses": 0,
+        "write_misses": 12500,
+        "evictions": 12500,
+        "dirty_writebacks": 12500,
+        "line_fills": 12500
+      },
+      "original_sha256": "b0c63b37ffb56c62b86472df0fc25ab2d0ffa7bd00d294b41a3edaf64a00e712"
+    },
+    {
+      "run_id": "RUN-000009",
+      "trace_id": "W2-1024",
+      "design": "D0",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "e93f3d8b5f006a0b27ed0cc2f4c3361a0664e8aa660149a0779cf2907c832bb0"
+    },
+    {
+      "run_id": "RUN-000010",
+      "trace_id": "W2-1024",
+      "design": "D1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "b1dd58531082e6fc4e5e41f3e920268b8fe931661acc1b88ea7e288e16178362"
+    },
+    {
+      "run_id": "RUN-000011",
+      "trace_id": "W2-1024",
+      "design": "D2",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "959f51369bfda857c78f02fe8ea5cf209e3527fbe11ae1186085bb2418c9ca0b"
+    },
+    {
+      "run_id": "RUN-000012",
+      "trace_id": "W2-1024",
+      "design": "DAI-v1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "9997bb5e0a5261c40535d5cfe03fc2eae2d16e36e4a6d58b1acfca98f3e72e39"
+    },
+    {
+      "run_id": "RUN-000013",
+      "trace_id": "W2-4096",
+      "design": "D0",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "a8bfb19043ffa1351c0c2e67b8fd5951ee535f39477fb485c44a6bb208c5da7e"
+    },
+    {
+      "run_id": "RUN-000014",
+      "trace_id": "W2-4096",
+      "design": "D1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "5cef43b919ebf6494d0988ebb0afa1e82341a75dbf4293ca351cab58e97fd40f"
+    },
+    {
+      "run_id": "RUN-000015",
+      "trace_id": "W2-4096",
+      "design": "D2",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "4e6a93d6c511eb7690b63cd2012242dba671cf59225959e480787877d0692d8c"
+    },
+    {
+      "run_id": "RUN-000016",
+      "trace_id": "W2-4096",
+      "design": "DAI-v1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "f9ea1ba6ff1b8ee5bab7c7a39f8fb480592aa9910e042218545c9df04f27d905"
+    },
+    {
+      "run_id": "RUN-000017",
+      "trace_id": "W2-16384",
+      "design": "D0",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 87500,
+        "misses": 12500,
+        "read_misses": 12500,
+        "write_misses": 0,
+        "evictions": 12500,
+        "dirty_writebacks": 0,
+        "line_fills": 12500
+      },
+      "original_sha256": "18ce1ba6cc366fe2ee12494174cec352d7a05a6f85bc9bc192f962ed4b1ce2c2"
+    },
+    {
+      "run_id": "RUN-000018",
+      "trace_id": "W2-16384",
+      "design": "D1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 87500,
+        "misses": 12500,
+        "read_misses": 12500,
+        "write_misses": 0,
+        "evictions": 12500,
+        "dirty_writebacks": 0,
+        "line_fills": 12500
+      },
+      "original_sha256": "04765a1b71ebfc144cf3b90388bcee2647f50695cb6d48728113e5a6d861a84e"
+    },
+    {
+      "run_id": "RUN-000019",
+      "trace_id": "W2-16384",
+      "design": "D2",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 87500,
+        "misses": 12500,
+        "read_misses": 12500,
+        "write_misses": 0,
+        "evictions": 12500,
+        "dirty_writebacks": 0,
+        "line_fills": 12500
+      },
+      "original_sha256": "340bc8490f1d2359bbaf213b10c7f5823c8740a52a3c071e47240e4bb21dbcb8"
+    },
+    {
+      "run_id": "RUN-000020",
+      "trace_id": "W2-16384",
+      "design": "DAI-v1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 87500,
+        "misses": 12500,
+        "read_misses": 12500,
+        "write_misses": 0,
+        "evictions": 12500,
+        "dirty_writebacks": 0,
+        "line_fills": 12500
+      },
+      "original_sha256": "64b6435d2320906c20fb31ece90fcaab6b1423c7653da046414a10c77863eac8"
+    },
+    {
+      "run_id": "RUN-000021",
+      "trace_id": "W3-N8",
+      "design": "D0",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 98611,
+        "misses": 1389,
+        "read_misses": 0,
+        "write_misses": 1389,
+        "evictions": 1389,
+        "dirty_writebacks": 1389,
+        "line_fills": 1389
+      },
+      "original_sha256": "e769bdf9a5f6d32454404d068c08314357d0b2d6819625c1270049454b51d44a"
+    },
+    {
+      "run_id": "RUN-000022",
+      "trace_id": "W3-N8",
+      "design": "D1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 98611,
+        "misses": 1389,
+        "read_misses": 0,
+        "write_misses": 1389,
+        "evictions": 1389,
+        "dirty_writebacks": 1389,
+        "line_fills": 1389
+      },
+      "original_sha256": "4c9f18b19a3a0963e071b6f306de8aa8fb6f8ac114789931804bb29e18340fc5"
+    },
+    {
+      "run_id": "RUN-000023",
+      "trace_id": "W3-N8",
+      "design": "D2",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 98611,
+        "misses": 1389,
+        "read_misses": 0,
+        "write_misses": 1389,
+        "evictions": 1389,
+        "dirty_writebacks": 1389,
+        "line_fills": 1389
+      },
+      "original_sha256": "1cb1c7e17a3f83841ac4f5b033a967d346c711d463f954cc061adb3b4307a988"
+    },
+    {
+      "run_id": "RUN-000024",
+      "trace_id": "W3-N8",
+      "design": "DAI-v1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 98611,
+        "misses": 1389,
+        "read_misses": 0,
+        "write_misses": 1389,
+        "evictions": 1389,
+        "dirty_writebacks": 1389,
+        "line_fills": 1389
+      },
+      "original_sha256": "6aca1b5976531cdad26e743af64d3ac99a12b085bf410698f6e58c530424f3b8"
+    },
+    {
+      "run_id": "RUN-000025",
+      "trace_id": "W3-N32",
+      "design": "D0",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 99621,
+        "misses": 379,
+        "read_misses": 0,
+        "write_misses": 379,
+        "evictions": 293,
+        "dirty_writebacks": 289,
+        "line_fills": 379
+      },
+      "original_sha256": "51bb592373778bc4b70003ed1308be5946f2880e1ff35d8a590b735adbe6bd54"
+    },
+    {
+      "run_id": "RUN-000026",
+      "trace_id": "W3-N32",
+      "design": "D1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 99621,
+        "misses": 379,
+        "read_misses": 0,
+        "write_misses": 379,
+        "evictions": 293,
+        "dirty_writebacks": 289,
+        "line_fills": 379
+      },
+      "original_sha256": "7facc09c56549b399f2ce895d34bcebf4bee80271bbf4158b9a3ab1994749b83"
+    },
+    {
+      "run_id": "RUN-000027",
+      "trace_id": "W3-N32",
+      "design": "D2",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 99621,
+        "misses": 379,
+        "read_misses": 0,
+        "write_misses": 379,
+        "evictions": 293,
+        "dirty_writebacks": 289,
+        "line_fills": 379
+      },
+      "original_sha256": "23d0dfdde9aaca40b0027a44742f15c1c4170980106a7376bbcc2654f24e113e"
+    },
+    {
+      "run_id": "RUN-000028",
+      "trace_id": "W3-N32",
+      "design": "DAI-v1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 99621,
+        "misses": 379,
+        "read_misses": 0,
+        "write_misses": 379,
+        "evictions": 293,
+        "dirty_writebacks": 289,
+        "line_fills": 379
+      },
+      "original_sha256": "389a8cb71956894c6aa62a734ad48e1735df29ba590ce7f297f7d3dbdd35a1c7"
+    },
+    {
+      "run_id": "RUN-000029",
+      "trace_id": "W3-N128",
+      "design": "D0",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 99903,
+        "misses": 97,
+        "read_misses": 0,
+        "write_misses": 97,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 97
+      },
+      "original_sha256": "fbed3d9e7ac896f4773b312f2e5e628875d7b56044d7c7321cbccf8ef223736d"
+    },
+    {
+      "run_id": "RUN-000030",
+      "trace_id": "W3-N128",
+      "design": "D1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 99903,
+        "misses": 97,
+        "read_misses": 0,
+        "write_misses": 97,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 97
+      },
+      "original_sha256": "3c6ee12f3d2edea20c7394664cb9c4f1d6172497f5c253ee97feed8a87eabab9"
+    },
+    {
+      "run_id": "RUN-000031",
+      "trace_id": "W3-N128",
+      "design": "D2",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 99903,
+        "misses": 97,
+        "read_misses": 0,
+        "write_misses": 97,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 97
+      },
+      "original_sha256": "580864c01dd3fe2f1048926338d0b1e1008752eaa25b3328d71e902129ec18fe"
+    },
+    {
+      "run_id": "RUN-000032",
+      "trace_id": "W3-N128",
+      "design": "DAI-v1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 99903,
+        "misses": 97,
+        "read_misses": 0,
+        "write_misses": 97,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 97
+      },
+      "original_sha256": "31849410005fa8fc54f2fc08cba622770a2ae26b18d99d3944eea300652a7e79"
+    },
+    {
+      "run_id": "RUN-000033",
+      "trace_id": "W3-N512",
+      "design": "D0",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 99976,
+        "misses": 24,
+        "read_misses": 0,
+        "write_misses": 24,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 24
+      },
+      "original_sha256": "b1cfe213e213e6bf9817521cf0992e06c673371fa156ebcdfabdf463f97f8ab0"
+    },
+    {
+      "run_id": "RUN-000034",
+      "trace_id": "W3-N512",
+      "design": "D1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 99976,
+        "misses": 24,
+        "read_misses": 0,
+        "write_misses": 24,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 24
+      },
+      "original_sha256": "d57a9b0c9678f51ce21684d851a62c5cf970c1bf809cef4e94abc9292d483986"
+    },
+    {
+      "run_id": "RUN-000035",
+      "trace_id": "W3-N512",
+      "design": "D2",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 99976,
+        "misses": 24,
+        "read_misses": 0,
+        "write_misses": 24,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 24
+      },
+      "original_sha256": "f7c72e6387bcbb1f833a7453112478258f3ba973fddcb842e3cb3874977c6a8d"
+    },
+    {
+      "run_id": "RUN-000036",
+      "trace_id": "W3-N512",
+      "design": "DAI-v1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 99976,
+        "misses": 24,
+        "read_misses": 0,
+        "write_misses": 24,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 24
+      },
+      "original_sha256": "8ebef8a7754a57ae798f035165ddf3411ae47e486de35015255feb8c96180776"
+    },
+    {
+      "run_id": "RUN-000037",
+      "trace_id": "W3-N2048",
+      "design": "D0",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 87463,
+        "misses": 12537,
+        "read_misses": 12488,
+        "write_misses": 49,
+        "evictions": 12537,
+        "dirty_writebacks": 49,
+        "line_fills": 12537
+      },
+      "original_sha256": "fb01099ddb20ffb8f4176ad777c5148c116159df9198a7f084a6acf705e25d3f"
+    },
+    {
+      "run_id": "RUN-000038",
+      "trace_id": "W3-N2048",
+      "design": "D1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 87463,
+        "misses": 12537,
+        "read_misses": 12488,
+        "write_misses": 49,
+        "evictions": 12537,
+        "dirty_writebacks": 49,
+        "line_fills": 12537
+      },
+      "original_sha256": "f117e3c7bd4ecceb2dd802f322038a0f51251021036839e625577f1d0e46a674"
+    },
+    {
+      "run_id": "RUN-000039",
+      "trace_id": "W3-N2048",
+      "design": "D2",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 87463,
+        "misses": 12537,
+        "read_misses": 12488,
+        "write_misses": 49,
+        "evictions": 12537,
+        "dirty_writebacks": 49,
+        "line_fills": 12537
+      },
+      "original_sha256": "2c201383eae3f5c80f8fba92553dfbab6dff1301e07b3ec9a6fbcd18c00c9792"
+    },
+    {
+      "run_id": "RUN-000040",
+      "trace_id": "W3-N2048",
+      "design": "DAI-v1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 87463,
+        "misses": 12537,
+        "read_misses": 12488,
+        "write_misses": 49,
+        "evictions": 12537,
+        "dirty_writebacks": 49,
+        "line_fills": 12537
+      },
+      "original_sha256": "1acd2c1843e084ddf5decaeaca03e2f40266f059bd155ca758f13152b17c45e6"
+    },
+    {
+      "run_id": "RUN-000041",
+      "trace_id": "W4-even",
+      "design": "D0",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "51fdb4c800881ac50b2fe9e8a19d98c53f93106ae3fd8e3bdd2511120366a8c9"
+    },
+    {
+      "run_id": "RUN-000042",
+      "trace_id": "W4-even",
+      "design": "D1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "3d46efa7569be5fdca8d1a77924f47e0e9bf360e72f9298d3127ec3583f63a2c"
+    },
+    {
+      "run_id": "RUN-000043",
+      "trace_id": "W4-even",
+      "design": "D2",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "c66be02c173a66135347c87e21ea39e2a82a2208cd168939af80e941d0da18ce"
+    },
+    {
+      "run_id": "RUN-000044",
+      "trace_id": "W4-even",
+      "design": "DAI-v1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "8b5c60329350326043dd9d9d8a221e8d97cb936f285992cfeb63a313f9cb870b"
+    },
+    {
+      "run_id": "RUN-000045",
+      "trace_id": "W4-random-S01",
+      "design": "D0",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "dba419d1223e2960015fb6c8c83acf00aab36948f01d0f97feb9ef343e49b871"
+    },
+    {
+      "run_id": "RUN-000046",
+      "trace_id": "W4-random-S01",
+      "design": "D1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "bbd6ca5fc28ef46b770895c8fdffe848740cde6e6454fa53eb422ffc8e802e39"
+    },
+    {
+      "run_id": "RUN-000047",
+      "trace_id": "W4-random-S01",
+      "design": "D2",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "10520171192850aab7e70502f0d02cc46a81d806196e953d3e1e6fcd134495d7"
+    },
+    {
+      "run_id": "RUN-000048",
+      "trace_id": "W4-random-S01",
+      "design": "DAI-v1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "0655df0b4457a75006328e8e8b457f06d7d4ff3e6d9f11ac8fdbc5bc74dea297"
+    },
+    {
+      "run_id": "RUN-000049",
+      "trace_id": "W4-random-S02",
+      "design": "D0",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "556800b5cd9a70099b0920ab969082ec5b068fad157b60b1c1689e9bc6c59f94"
+    },
+    {
+      "run_id": "RUN-000050",
+      "trace_id": "W4-random-S02",
+      "design": "D1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "eebff5208eccc8e5ac5e9dec0e2f61bd6fc2650d9826b3e9676c6b05e85f8e12"
+    },
+    {
+      "run_id": "RUN-000051",
+      "trace_id": "W4-random-S02",
+      "design": "D2",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "2b8566d0f59e90afd74ad5458f88def24f7d459accf6f694fc59bb2ca4e843f5"
+    },
+    {
+      "run_id": "RUN-000052",
+      "trace_id": "W4-random-S02",
+      "design": "DAI-v1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "ece8ba20b61f19c9898d4355365745e927d54193dd4306e09b42ea96e04b03bd"
+    },
+    {
+      "run_id": "RUN-000053",
+      "trace_id": "W4-random-S03",
+      "design": "D0",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "ca12a04abc2bf93bb0cb0f7b813d9dabcb4b8b810ec3a01853b283a2529f57de"
+    },
+    {
+      "run_id": "RUN-000054",
+      "trace_id": "W4-random-S03",
+      "design": "D1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "5596a475a99013c1f8da14b74e501f0656e2e32c29b4a6613bec12f77181f003"
+    },
+    {
+      "run_id": "RUN-000055",
+      "trace_id": "W4-random-S03",
+      "design": "D2",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "fe7d9d2a33ed24a254359fae6f3a758bbdb41353741a68610e86e4641c5b549f"
+    },
+    {
+      "run_id": "RUN-000056",
+      "trace_id": "W4-random-S03",
+      "design": "DAI-v1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "daa58d2f66623829c5d07025bab6d819d7f5fe79c6454c728298b12cacc9f43e"
+    },
+    {
+      "run_id": "RUN-000057",
+      "trace_id": "W4-random-S04",
+      "design": "D0",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "31954327452c575da229a0028435a343545bdbe7ad67c14f1cf600a256b08b55"
+    },
+    {
+      "run_id": "RUN-000058",
+      "trace_id": "W4-random-S04",
+      "design": "D1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "5ac348e17187ccf7d9798470ea187c64e3481a73a66f418b73e24bd6da998e05"
+    },
+    {
+      "run_id": "RUN-000059",
+      "trace_id": "W4-random-S04",
+      "design": "D2",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "40146a52b095fd097a48f5bd53bfce02ce71f470382ca1c004c6ccc5a0ed37e8"
+    },
+    {
+      "run_id": "RUN-000060",
+      "trace_id": "W4-random-S04",
+      "design": "DAI-v1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "680afa1c7341659fed1ff49b9b66355931c73cb4a8941870d809f5320fad13d6"
+    },
+    {
+      "run_id": "RUN-000061",
+      "trace_id": "W4-random-S05",
+      "design": "D0",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "8b3274850a6a3d9e782ba55083503837b8dc8185070487ef60698a7835e5b907"
+    },
+    {
+      "run_id": "RUN-000062",
+      "trace_id": "W4-random-S05",
+      "design": "D1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "cd8103b782c218e04eebfa71bed64eb5288edd3976ea44901e7f26a42a9c3847"
+    },
+    {
+      "run_id": "RUN-000063",
+      "trace_id": "W4-random-S05",
+      "design": "D2",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "2cde0ee5096722e9328ff353cb55be15bb51853f0d1177d96d7d76856bd80b5a"
+    },
+    {
+      "run_id": "RUN-000064",
+      "trace_id": "W4-random-S05",
+      "design": "DAI-v1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "331db211d298f2255e8b9bb0750fcd119216e772f944f59eca9d9d89dd680f16"
+    },
+    {
+      "run_id": "RUN-000065",
+      "trace_id": "W4-random-S06",
+      "design": "D0",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "ab206f4413a55ae231ee0bcdb59a6ecfaeadbe70bc7ec3355c5297514662fdde"
+    },
+    {
+      "run_id": "RUN-000066",
+      "trace_id": "W4-random-S06",
+      "design": "D1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "b5633ba56b4d0b1171d7b5d686b254504f67d8ac81dec93a5d6e2b43d2fbd5e8"
+    },
+    {
+      "run_id": "RUN-000067",
+      "trace_id": "W4-random-S06",
+      "design": "D2",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "41b0f4b59fb690bde3e9493d4ecfd706b9f09e161c1e42fd2a957638dde9f29b"
+    },
+    {
+      "run_id": "RUN-000068",
+      "trace_id": "W4-random-S06",
+      "design": "DAI-v1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "8042bf000c0da7e74b4b9a5d73bb381ed81e79d2d6e7eaf449514c28043592c2"
+    },
+    {
+      "run_id": "RUN-000069",
+      "trace_id": "W4-random-S07",
+      "design": "D0",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "85ff8a4234d59f03bae4e7aa7134cd1d1d79ebb93834fb71e39b9dc9de8b1e26"
+    },
+    {
+      "run_id": "RUN-000070",
+      "trace_id": "W4-random-S07",
+      "design": "D1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "0cd5d6d9e225d709427f3e56a6ce14059367d60c0b3568e5738269343dadbde2"
+    },
+    {
+      "run_id": "RUN-000071",
+      "trace_id": "W4-random-S07",
+      "design": "D2",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "c2cdea269141474bf0161883bf80a15dd61467755008c6069739561401c30094"
+    },
+    {
+      "run_id": "RUN-000072",
+      "trace_id": "W4-random-S07",
+      "design": "DAI-v1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "9d337ded98d621eda1e090609bbc784f23b78c4484ce59bd8ef081b77a29964e"
+    },
+    {
+      "run_id": "RUN-000073",
+      "trace_id": "W4-random-S08",
+      "design": "D0",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "418d81e65a2c4a2abd446a0646c549ac593d97488e56a981ac554bd8fa7ebd33"
+    },
+    {
+      "run_id": "RUN-000074",
+      "trace_id": "W4-random-S08",
+      "design": "D1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "610bdb5f1b22d1544f060b60d5902d2f1389dc21045c540115a9d7991597fa91"
+    },
+    {
+      "run_id": "RUN-000075",
+      "trace_id": "W4-random-S08",
+      "design": "D2",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "b12c7cba442ee6b986236cd28507da2929ad6b1f789fc612b2dd5cc92218e7ef"
+    },
+    {
+      "run_id": "RUN-000076",
+      "trace_id": "W4-random-S08",
+      "design": "DAI-v1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "c56f6110f46d99402ad43ec8ef80620c7ec4e3357c8eff23e465a424e8ca4eb6"
+    },
+    {
+      "run_id": "RUN-000077",
+      "trace_id": "W4-random-S09",
+      "design": "D0",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "380e2c96418b1fd376a93a50cec8deea427494cfbb3fc9070ccb4569bee139ff"
+    },
+    {
+      "run_id": "RUN-000078",
+      "trace_id": "W4-random-S09",
+      "design": "D1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "db968366801595e9895690e7b25b7e9cbad856df9a620676afd1448c047e8455"
+    },
+    {
+      "run_id": "RUN-000079",
+      "trace_id": "W4-random-S09",
+      "design": "D2",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "2374f2ae59ebf16f176c5a1e2853e467d2c326d73e42c2703782a1c9cd9957c0"
+    },
+    {
+      "run_id": "RUN-000080",
+      "trace_id": "W4-random-S09",
+      "design": "DAI-v1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "076e9b468d0f7d03b70f316a1ee2bc1d41afb5139b34725dc09b5b1abff220a4"
+    },
+    {
+      "run_id": "RUN-000081",
+      "trace_id": "W4-random-S10",
+      "design": "D0",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "37af1fe845cfbe51ef4a749fb961576b1dfa51d37aa4d5a4ee827c96d62f68f6"
+    },
+    {
+      "run_id": "RUN-000082",
+      "trace_id": "W4-random-S10",
+      "design": "D1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "715c1afcba570d3a3603db74f98ba8dd19067a7ceaedcc8656d8a8ffe49e1e1f"
+    },
+    {
+      "run_id": "RUN-000083",
+      "trace_id": "W4-random-S10",
+      "design": "D2",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "b7d6f7063eac794d963c4d26566c66ada956b0fd23b77ea33ba9ce9f67023fe2"
+    },
+    {
+      "run_id": "RUN-000084",
+      "trace_id": "W4-random-S10",
+      "design": "DAI-v1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "500a2c8660b250e623f18dabf7fd1ec8659b8e2ea7a76a2c9c2fe65c8f60d9cb"
+    },
+    {
+      "run_id": "RUN-000085",
+      "trace_id": "W5-K2",
+      "design": "D0",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 0,
+        "misses": 100000,
+        "read_misses": 100000,
+        "write_misses": 0,
+        "evictions": 100000,
+        "dirty_writebacks": 0,
+        "line_fills": 100000
+      },
+      "original_sha256": "3c8c88272ee632a3d1d1cdd89bf4a61565a7edc4b72fda4a67075400183427de"
+    },
+    {
+      "run_id": "RUN-000086",
+      "trace_id": "W5-K2",
+      "design": "D1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "f532b0e9332ca137f1136bdaec9b26be3f21529d3f23dad0ba735264cfa5fa63"
+    },
+    {
+      "run_id": "RUN-000087",
+      "trace_id": "W5-K2",
+      "design": "D2",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "a328ac94881b9a4b9c7455b945307ab569d26f5ec58f86f7806e961292cac21e"
+    },
+    {
+      "run_id": "RUN-000088",
+      "trace_id": "W5-K2",
+      "design": "DAI-v1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "c37a09ade20b0f294bb3b7ea869086da83787ea23653763430ef8e503c32424d"
+    },
+    {
+      "run_id": "RUN-000089",
+      "trace_id": "W5-K4",
+      "design": "D0",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 0,
+        "misses": 100000,
+        "read_misses": 100000,
+        "write_misses": 0,
+        "evictions": 100000,
+        "dirty_writebacks": 0,
+        "line_fills": 100000
+      },
+      "original_sha256": "c69249e2fae8eef0342e00f094e8a694051c1cf8e6c849b4e76ebf883f185d2f"
+    },
+    {
+      "run_id": "RUN-000090",
+      "trace_id": "W5-K4",
+      "design": "D1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 0,
+        "misses": 100000,
+        "read_misses": 100000,
+        "write_misses": 0,
+        "evictions": 100000,
+        "dirty_writebacks": 0,
+        "line_fills": 100000
+      },
+      "original_sha256": "99908490a40543c26ea0c8d63eaec6427ff052a8bc267a2dcd025992914a2f0a"
+    },
+    {
+      "run_id": "RUN-000091",
+      "trace_id": "W5-K4",
+      "design": "D2",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "567b4e2558d6cc153a65a1026592ac28b147f9aca3cba13dae9b4ebef74b98ee"
+    },
+    {
+      "run_id": "RUN-000092",
+      "trace_id": "W5-K4",
+      "design": "DAI-v1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "cbc88557b136bac1e3a22ca1f6b0f51954d46dca9b9aaf48151f77147e5d89f4"
+    },
+    {
+      "run_id": "RUN-000093",
+      "trace_id": "W5-K8",
+      "design": "D0",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 0,
+        "misses": 100000,
+        "read_misses": 100000,
+        "write_misses": 0,
+        "evictions": 100000,
+        "dirty_writebacks": 0,
+        "line_fills": 100000
+      },
+      "original_sha256": "6bd0e79aa2886bfc9af7dd68927c877a8464339b19c633a55835c5864cf2fd34"
+    },
+    {
+      "run_id": "RUN-000094",
+      "trace_id": "W5-K8",
+      "design": "D1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 0,
+        "misses": 100000,
+        "read_misses": 100000,
+        "write_misses": 0,
+        "evictions": 100000,
+        "dirty_writebacks": 0,
+        "line_fills": 100000
+      },
+      "original_sha256": "f25719521b251ca27ea1c5044f17a20216215624f3d450aec41bd57c4ad6cfe7"
+    },
+    {
+      "run_id": "RUN-000095",
+      "trace_id": "W5-K8",
+      "design": "D2",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 0,
+        "misses": 100000,
+        "read_misses": 100000,
+        "write_misses": 0,
+        "evictions": 100000,
+        "dirty_writebacks": 0,
+        "line_fills": 100000
+      },
+      "original_sha256": "5bfd17888f9e78570ad75da292385796f505d246ba7067942a61fafb17bf4431"
+    },
+    {
+      "run_id": "RUN-000096",
+      "trace_id": "W5-K8",
+      "design": "DAI-v1",
+      "replay_match": true,
+      "full_trace_reference_match": true,
+      "counters": {
+        "accesses": 100000,
+        "hits": 100000,
+        "misses": 0,
+        "read_misses": 0,
+        "write_misses": 0,
+        "evictions": 0,
+        "dirty_writebacks": 0,
+        "line_fills": 0
+      },
+      "original_sha256": "d86344fca065ecc68dbe421a1f0dfc66fb14f93fa7504ba2c2142a7e368fe37c"
+    }
+  ]
+}

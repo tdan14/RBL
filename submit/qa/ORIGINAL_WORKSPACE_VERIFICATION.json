@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "original_files_verified": 708,
+  "original_files_changed": 0,
+  "exclusions": "Git internals, pre-existing compiler cache, and Python bytecode caches were excluded from the original baseline. All existing project, report, source, input, result, and evidence files in the baseline remain unchanged."
+}

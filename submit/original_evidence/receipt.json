@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "completed_at": "2026-10-31T16:06:48+07:00",
+  "operator": "Trương Tô Dân — QE210127",
+  "executor": "Codex/Python",
+  "file": "Q10_BATCH01_evidence.zip",
+  "sha256": "353d17c95858153a2f8523dd98a65db8a51fd25e6401682ba39e5b737e01de7e",
+  "bytes": 3965503,
+  "files": 586,
+  "note": "ZIP byte integrity checked against FINAL_CHECKSUMS; no full chat export or measured sensor data claimed"
+}

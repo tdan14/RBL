@@ -1,0 +1,5 @@
+# DEBUG T04, warmup=0, measure=4
+W 2048 4
+R 2048 4
+R 32 4
+R 4192 4

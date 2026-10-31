@@ -1,0 +1,38 @@
+{
+  "LIT-001": {
+    "title": "Randomizing Set-Associative Caches Against Conflict-Based Cache Side-Channel Attacks",
+    "prose_words": 869
+  },
+  "LIT-002": {
+    "title": "The Maya Cache: A Storage-efficient and Secure Fully-associative Last-level Cache",
+    "prose_words": 869
+  },
+  "LIT-003": {
+    "title": "Scatter and Split Securely: Defeating Cache Contention and Occupancy Attacks",
+    "prose_words": 877
+  },
+  "LIT-004": {
+    "title": "Tartan: Microarchitecting a Robotic Processor",
+    "prose_words": 881
+  },
+  "LIT-005": {
+    "title": "From Optimal to Practical: Efficient Micro-op Cache Replacement Policies for Data Center Applications",
+    "prose_words": 881
+  },
+  "LIT-006": {
+    "title": "EMISSARY: Enhanced Miss Awareness Replacement Policy for L2 Instruction Caching",
+    "prose_words": 872
+  },
+  "LIT-007": {
+    "title": "CHROME: Concurrency-Aware Holistic Cache Management Framework with Online Reinforcement Learning",
+    "prose_words": 898
+  },
+  "LIT-008": {
+    "title": "A Prefetch-Adaptive Intelligent Cache Replacement Policy Based on Machine Learning",
+    "prose_words": 880
+  },
+  "LIT-009": {
+    "title": "Sketching the Path to Efficiency: Lightweight Learned Cache Replacement",
+    "prose_words": 900
+  }
+}
